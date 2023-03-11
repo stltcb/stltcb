@@ -1,5 +1,5 @@
 function generateSlides() {
-    httpGet('https://anilkkt.github.io/data/slides.json');
+    httpGet('https://stltcb.github.io/slides/data/slides.json');
 }
 
 function addTitleSlide(title) {
