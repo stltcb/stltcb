@@ -81,7 +81,7 @@ function addList(slide, title, list, listStyle) {
 
     list.forEach(text => {
         var p = document.createElement('p');
-        p.classList.add('text-intro');
+        //p.classList.add('text-intro');
         if (listStyle) {
             p.classList.add(listStyle);
         }
