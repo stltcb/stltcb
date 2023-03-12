@@ -1,5 +1,19 @@
-function generateSlides() {
-    httpGet('https://stltcb.github.io/slides/data/slides.json');
+function generateSlides(val) {
+    httpGet('https://stltcb.github.io/slides/data/'+ val +'.json');
+}
+
+function getEventDates() {
+    httpGet2('https://stltcb.github.io/slides/data/eventDates.json');
+}
+
+function fillDates(list) {
+    var dates = document.getElementById('dates');
+    addDropdownItems(dates, list);
+}
+
+function loadSlides() {
+    var sel = document.getElementById("dates").value;
+    generateSlides(sel);
 }
 
 function addTitleSlide(title) {
@@ -72,7 +86,6 @@ function addText(slide, text) {
 }
 
 function addList(slide, title, list, listStyle) {
-
     var h1 = document.createElement('h1');    
     h1.innerText = title;
     slide.firstChild.appendChild(h1);
@@ -81,7 +94,7 @@ function addList(slide, title, list, listStyle) {
 
     list.forEach(text => {
         var p = document.createElement('p');
-        //p.classList.add('text-intro');
+        p.classList.add('text-intro');
         if (listStyle) {
             p.classList.add(listStyle);
         }
@@ -106,6 +119,15 @@ function getSlide(style, contentStyle) {
     return slide;
 }
 
+function addDropdownItems(dropdown, list) {
+    list.forEach(text => {
+        var option = document.createElement('option');
+        option.innerText = text;
+        option.setAttribute('value', text.replace(/\//g, '-'));
+        dropdown.appendChild(option);
+    });
+}
+
 function httpGet(addr) {
     var xmlHttp = undefined;
     if (window.XMLHttpRequest) {
@@ -123,6 +145,25 @@ function httpGet(addr) {
                 addSongSlide(section);
             });
             addEndSlide('Thank You!')
+            window.ws = new WebSlides();
+        }
+    }
+    xmlHttp.open('GET', addr, false);
+    xmlHttp.send();
+}
+
+function httpGet2(addr) {
+    var xmlHttp = undefined;
+    if (window.XMLHttpRequest) {
+        xmlHttp = new XMLHttpRequest();
+    }
+    else {
+        xmlHttp = new ActiveXObject('Microsoft.XMLHTTP');
+    }
+    xmlHttp.onreadystatechange=function() {
+        if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
+            var data = JSON.parse(xmlHttp.responseText);
+            fillDates(data);
         }
     }
     xmlHttp.open('GET', addr, false);
