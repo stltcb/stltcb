@@ -37,7 +37,9 @@
   <body>
     <header role="banner">
       <nav role="navigation">
-        <p class="logo"><a href="../index.html" title="WebSlides">WebSlides</a></p>
+        <select name="dates" id="dates" onchange="loadSlides()">
+          <option value="slides">Select Date</option>
+        </select>
       </nav>
     </header>
 
@@ -60,8 +62,7 @@
     <script src="static/js/webslides.js"></script>
     <script src="static/js/generate.js"></script>
     <script>
-      generateSlides();
-      window.ws = new WebSlides();
+      getEventDates();      
     </script>
 
     <script defer src="static/js/svg-icons.js"></script>
