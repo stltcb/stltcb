@@ -144,8 +144,7 @@ function httpGet(addr) {
             data.sections.forEach(section => {
                 addSongSlide(section);
             });
-            addEndSlide('Thank You!')
-            window.ws = new WebSlides();
+            addEndSlide('Thank You!');
         }
     }
     xmlHttp.open('GET', addr, false);
