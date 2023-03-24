@@ -103,7 +103,6 @@
         return slide;
     }
 
-
     function getSectionHeaderSlide(titleText, subTitleText) {
         const slide = getSlide();
 
@@ -174,7 +173,6 @@
         return section;
     }
 
-
     function getSlidesForSection(section) {
 
         const slides = [];
@@ -230,5 +228,4 @@
         }
 
         console.log(obj.sections.length);
-
     }
