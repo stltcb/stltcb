@@ -1,24 +1,22 @@
 {
   "title": {
-    "heading": "TCB Family Prayer",
-    "subtitle": "Saturday 03/11/2023"
+    "heading": "Test Title",
+    "subtitle": "lets see how it will work"
   },
   "agenda": {
-    "heading": "TCB Family Prayer",
+    "heading": "We shall talk on",
     "items" : [
-      "Starting Prayer",
-      "Songs",
-      "Memory Verses",
-      "Message (Bro. Srinivas)",
-      "Anouncements",
-      "Closing Prayer"
+      "Topic1",
+      "Topic2",
+      "Topic3"
       ]
   },
   "sections": [
     {
-      "heading": "హల్లెలూయ స్తుతి మహిమ",
+      "heading": "Welcome",
       "details": [
-        "హల్లెలూయ స్తుతి మహిమ\nఎల్లప్పుడు దేవుని కిచ్చెదము (2)\nఆ… హల్లెలూయా హల్లెలూయా హల్లెలూయా (2)\n\nఅల సైన్యములకు అధిపతియైన\nఆ దేవుని స్తుతించెదము (2)\nఅల సంద్రములను దాటించిన\nఆ యెహోవాను స్తుతించెదము (2)    ||హల్లెలూయ||\n\nఆకాశమునుండి మన్నాను పంపిన\nదేవుని స్తుతించెదము (2)\nబండనుండి మధుర జలమును పంపిన\nఆ యెహోవాను స్తుతించెదము (2)     ||హల్లెలూయ||"
+        "Verse1\nverse2\nVerse3",
+        "Second Verse1\nSecond verse2\nSecond Verse3"
         ]
     }
     ] 
