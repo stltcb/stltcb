@@ -1,23 +1,28 @@
 {
-  "title": {
-    "heading": "Test Title",
-    "subtitle": "lets see how it will work"
-  },
-  "agenda": {
-    "heading": "We shall talk on",
-    "items" : [
-      "Topic1",
-      "Topic2",
-      "Topic3"
-      ]
-  },
+  "date": "03/22/2023",
+  "title": "TCB Family Prayer",
+  "subtitle": "subTitle",
   "sections": [
     {
-      "heading": "Welcome",
-      "details": [
-        "Verse1\nverse2\nVerse3",
-        "Second Verse1\nSecond verse2\nSecond Verse3"
-        ]
+      "name": "Songs",
+      "title": "Songs",
+      "subtitle": "Worship",
+      "content": [
+        {
+          "heading": "How Great Though Art",
+          "slides": [
+            {
+              "lines": [
+                "Oh Lord, my God",
+                "When I, in awesome wonder",
+                "Consider all the worlds Thy hands have made",
+                "I see the stars, I hear the rolling thunder",
+                "Thy power throughout the universe displayed"
+              ]
+            }
+          ]
+        }
+      ]
     }
-    ] 
+  ]
 }
