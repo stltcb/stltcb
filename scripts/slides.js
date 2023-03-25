@@ -229,3 +229,39 @@
 
         console.log(obj.sections.length);
     }
+
+    function increaseFont() {
+        var titles = document.getElementsByClassName('song-title');
+        for (let i = 0; i < titles.length; i++) {
+            const title = titles[i];
+            var style = window.getComputedStyle(title, null).getPropertyValue('font-size');
+            var fontSize = parseFloat(style);
+            title.style.fontSize = (fontSize + 3) + 'px';
+        }
+
+        var verses = document.getElementsByClassName('song-verse-large');
+        for (let j = 0; j < verses.length; j++) {
+            const verse = verses[j];
+            var style = window.getComputedStyle(verse, null).getPropertyValue('font-size');
+            var fontSize = parseFloat(style);
+            verse.style.fontSize = (fontSize + 3) + 'px';
+        }
+    }
+
+    function decreaseFont() {
+        var titles = document.getElementsByClassName('song-title');
+        for (let i = 0; i < titles.length; i++) {
+            const title = titles[i];
+            var style = window.getComputedStyle(title, null).getPropertyValue('font-size');
+            var fontSize = parseFloat(style);
+            title.style.fontSize = (fontSize - 3) + 'px';
+        }
+
+        var verses = document.getElementsByClassName('song-verse-large');
+        for (let j = 0; j < verses.length; j++) {
+            const verse = verses[j];
+            var style = window.getComputedStyle(verse, null).getPropertyValue('font-size');
+            var fontSize = parseFloat(style);
+            verse.style.fontSize = (fontSize - 3) + 'px';
+        }
+    }
