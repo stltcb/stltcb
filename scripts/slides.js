@@ -1,3 +1,54 @@
+    function httpGet(theUrl) {
+        let xmlHttpReq = new XMLHttpRequest();
+        xmlHttpReq.open("GET", theUrl, false);
+        xmlHttpReq.send(null);
+        return xmlHttpReq.responseText;
+    }
+
+    function getProgram() {
+        var data = httpGet('https://anilkkt.github.io/data/program.json');
+        return JSON.parse(data);
+    }
+
+    function hideAll() {
+        const slides = document.getElementsByClassName('slide');
+        for(let i = 0; i<slides.length; i++) {
+            slides[i].style.display = 'none';
+        }
+    }
+
+    function showSlide(num) {
+        hideAll();
+        const slides = document.getElementsByClassName('slide');
+        slides[num].style.display = "block";
+    }
+
+    function getSectionName(pgNumber) {
+        let count = 0;
+        const sections = document.getElementsByClassName('section');
+        for(let i = 0; i<sections.length; i++) {
+            const slides = sections[i].getElementsByClassName('slide');
+            const sectionName = sections[i].getElementsByClassName('section-name')[0];
+            count += slides.length;
+            if (count > pgNumber) {
+                return sectionName.innerText;
+            }
+        }
+        return '';
+    }
+
+    function getSectionNumber(pgNumber) {
+        let count = 0;
+        const sections = document.getElementsByClassName('section');
+        for(let i = 0; i<sections.length; i++) {
+            const slides = sections[i].getElementsByClassName('slide');
+            count += slides.length;
+            if (count > pgNumber) {
+                return i+1;
+            }
+        }
+        return sections.length;
+    }
 
     document.onkeydown = function (e) {
         switch (e.key) {
@@ -30,48 +81,52 @@
         updateFooter();
     }
 
-    function httpGet(theUrl) {
-        let xmlHttpReq = new XMLHttpRequest();
-        xmlHttpReq.open("GET", theUrl, false);
-        xmlHttpReq.send(null);
-        return xmlHttpReq.responseText;
-    }
+    function increaseFont() {
+        var titles = document.getElementsByClassName('song-title');
+        for (let i = 0; i < titles.length; i++) {
+            const title = titles[i];
+            var style = window.getComputedStyle(title, null).getPropertyValue('font-size');
+            var fontSize = parseFloat(style);
+            title.style.fontSize = (fontSize + 3) + 'px';
+        }
 
-    function getProgram() {
-        var data = httpGet('https://stltcb.github.io/slides/data/slides.json');
-        return JSON.parse(data);
-    }
-
-    function hideAll() {
-        const slides = document.getElementsByClassName('slide');
-        for(let i = 0; i<slides.length; i++) {
-            slides[i].style.display = 'none';
+        var verses = document.getElementsByClassName('song-verse-large');
+        for (let j = 0; j < verses.length; j++) {
+            const verse = verses[j];
+            var style = window.getComputedStyle(verse, null).getPropertyValue('font-size');
+            var fontSize = parseFloat(style);
+            verse.style.fontSize = (fontSize + 3) + 'px';
         }
     }
 
-    function showSlide(num) {
-        hideAll();
-        const slides = document.getElementsByClassName('slide');
-        slides[num].style.display = "block";
-    }
-
-    function getSectionNumber(pgNumber) {
-        let count = 0;
-        const sections = document.getElementsByClassName('section');
-        for(let i = 0; i<sections.length; i++) {
-            const slides = sections[i].getElementsByClassName('slide');
-            count += slides.length;
-            if (count > pgNumber) {
-                return i+1;
-            }
+    function decreaseFont() {
+        var titles = document.getElementsByClassName('song-title');
+        for (let i = 0; i < titles.length; i++) {
+            const title = titles[i];
+            var style = window.getComputedStyle(title, null).getPropertyValue('font-size');
+            var fontSize = parseFloat(style);
+            title.style.fontSize = (fontSize - 3) + 'px';
         }
-        return sections.length;
+
+        var verses = document.getElementsByClassName('song-verse-large');
+        for (let j = 0; j < verses.length; j++) {
+            const verse = verses[j];
+            var style = window.getComputedStyle(verse, null).getPropertyValue('font-size');
+            var fontSize = parseFloat(style);
+            verse.style.fontSize = (fontSize - 3) + 'px';
+        }
     }
 
     function updateFooter() {
         const secNum = getSectionNumber(pageNumber);
+        const secName = getSectionName(pageNumber);
         const pageNum = document.getElementById('pageNumber');
-        pageNum.innerText = `Section: ${secNum} Slide: ${pageNumber + 1} `;
+        if (secName === '') {
+            pageNum.innerText = `Slide: ${pageNumber + 1} `;
+        }
+        else {
+            pageNum.innerText = `${secName} - Slide: ${pageNumber + 1} `;
+        }
     }
 
     function getRootSlide(titleText, subTitleText) {
@@ -113,6 +168,7 @@
 
         return slide;
     }
+
 
     function getSectionHeaderSlide(titleText, subTitleText) {
         const slide = getSlide();
@@ -184,6 +240,7 @@
         return section;
     }
 
+
     function getSlidesForSection(section) {
 
         const slides = [];
@@ -236,43 +293,5 @@
             const sectionSlides = getSlidesForSection(objSection);
             const viewSection = getSection(sectionSlides, objSection.name);
             body.appendChild(viewSection);
-        }
-
-        console.log(obj.sections.length);
-    }
-
-    function increaseFont() {
-        var titles = document.getElementsByClassName('song-title');
-        for (let i = 0; i < titles.length; i++) {
-            const title = titles[i];
-            var style = window.getComputedStyle(title, null).getPropertyValue('font-size');
-            var fontSize = parseFloat(style);
-            title.style.fontSize = (fontSize + 3) + 'px';
-        }
-
-        var verses = document.getElementsByClassName('song-verse-large');
-        for (let j = 0; j < verses.length; j++) {
-            const verse = verses[j];
-            var style = window.getComputedStyle(verse, null).getPropertyValue('font-size');
-            var fontSize = parseFloat(style);
-            verse.style.fontSize = (fontSize + 3) + 'px';
-        }
-    }
-
-    function decreaseFont() {
-        var titles = document.getElementsByClassName('song-title');
-        for (let i = 0; i < titles.length; i++) {
-            const title = titles[i];
-            var style = window.getComputedStyle(title, null).getPropertyValue('font-size');
-            var fontSize = parseFloat(style);
-            title.style.fontSize = (fontSize - 3) + 'px';
-        }
-
-        var verses = document.getElementsByClassName('song-verse-large');
-        for (let j = 0; j < verses.length; j++) {
-            const verse = verses[j];
-            var style = window.getComputedStyle(verse, null).getPropertyValue('font-size');
-            var fontSize = parseFloat(style);
-            verse.style.fontSize = (fontSize - 3) + 'px';
         }
     }
