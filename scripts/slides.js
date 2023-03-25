@@ -1,3 +1,35 @@
+
+    document.onkeydown = function (e) {
+        switch (e.key) {
+            case 'ArrowDown':
+            case 'ArrowRight':
+                nextSlide();
+                break;
+            case 'ArrowUp':
+            case 'ArrowLeft':
+                previousSlide();
+                break;
+        }
+    };
+
+    function nextSlide() {
+        pageNumber++;
+        if (pageNumber >= pageLength) {
+            pageNumber = pageLength-1;
+        }
+        showSlide(pageNumber);
+        updateFooter();
+    }
+
+    function previousSlide() {
+        pageNumber--;
+        if(pageNumber < 0) {
+            pageNumber = 0;
+        }
+        showSlide(pageNumber);
+        updateFooter();
+    }
+
     function httpGet(theUrl) {
         let xmlHttpReq = new XMLHttpRequest();
         xmlHttpReq.open("GET", theUrl, false);
@@ -35,27 +67,6 @@
         }
         return sections.length;
     }
-
-    document.onkeydown = function (e) {
-        switch (e.key) {
-            case 'ArrowDown':
-            case 'ArrowRight':
-                pageNumber++;
-                break;
-            case 'ArrowUp':
-            case 'ArrowLeft':
-                pageNumber--;
-                break;
-        }
-        if(pageNumber < 0) {
-            pageNumber = 0;
-        }
-        else if (pageNumber >= pageLength) {
-            pageNumber = pageLength-1;
-        }
-        showSlide(pageNumber);
-        updateFooter();
-    };
 
     function updateFooter() {
         const secNum = getSectionNumber(pageNumber);
