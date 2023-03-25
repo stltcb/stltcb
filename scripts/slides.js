@@ -7,7 +7,7 @@
     }
 
     function getProgram() {
-        var data = httpGet('https://anilkkt.github.io/data/program.json');
+        var data = httpGet('https://stltcb.github.io/slides/data/slides.json');
         return JSON.parse(data);
     }
 
