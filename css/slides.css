@@ -90,7 +90,7 @@
             font-weight: bold;
             margin: 0;
             position: absolute;
-            top: 40%;
+            top: 30%;
             left: 50%;
             transform: translate(-50%, -50%);
         }
@@ -99,7 +99,7 @@
             font-size: 3em;
             margin: 0;
             position: absolute;
-            top: 50%;
+            top: 60%;
             left: 50%;
             transform: translate(-50%, -50%);
         }
