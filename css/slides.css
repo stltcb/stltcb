@@ -90,6 +90,7 @@
             font-weight: bold;
             margin: 0;
             position: absolute;
+            display:inline;
             top: 30%;
             left: 50%;
             transform: translate(-50%, -50%);
