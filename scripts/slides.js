@@ -1,3 +1,4 @@
+
     function httpGet(theUrl) {
         let xmlHttpReq = new XMLHttpRequest();
         xmlHttpReq.open("GET", theUrl, false);
@@ -81,6 +82,41 @@
         updateFooter();
     }
 
+    function stepBack() {
+        const secNum = getSectionNumber(pageNumber);
+        let count = 0;
+        const sections = document.getElementsByClassName('section');
+        for(let i = 0; i<sections.length; i++) {
+            const slides = sections[i].getElementsByClassName('slide');
+            if (slides.length > pgNumber) {
+                break;
+            }
+            count += slides.length;
+        }
+        pageNumber = count;
+        nextSlide();
+    }
+
+    function goBack() {
+        const secNum = getSectionNumber(pageNumber);
+        let count = 0;
+        const sections = document.getElementsByClassName('section');
+        for(let i = 0; i<sections.length; i++) {
+            const slides = sections[i].getElementsByClassName('slide');
+            if (slides.length > pageNumber) {
+                break;
+            }
+            count += slides.length;
+        }
+        pageNumber = count;
+        previousSlide();
+    }
+
+    function goHome() {
+        pageNumber=0;
+        previousSlide();
+    }
+
     function increaseFont() {
         var titles = document.getElementsByClassName('song-title');
         for (let i = 0; i < titles.length; i++) {
@@ -118,7 +154,6 @@
     }
 
     function updateFooter() {
-        const secNum = getSectionNumber(pageNumber);
         const secName = getSectionName(pageNumber);
         const pageNum = document.getElementById('pageNumber');
         if (secName === '') {
@@ -248,14 +283,18 @@
         const headerSlide = getSectionHeaderSlide(section.title, section.subtitle);
         slides.push(headerSlide);
 
-        for (let index = 0; index < section.content.length; index++) {
-            const content = section.content[index];
-            const contentHeaderSlide = getContentHeaderSlide(content.heading);
-            slides.push(contentHeaderSlide);
-            for (let j = 0; j < content.slides.length; j++) {
-                const slide = content.slides[j];
-                const linesSlice = getContentLinesSlide(slide.lines);
-                slides.push(linesSlice);
+        if (section.content) {
+            for (let index = 0; index < section.content.length; index++) {
+                const content = section.content[index];
+                const contentHeaderSlide = getContentHeaderSlide(content.heading);
+                slides.push(contentHeaderSlide);
+                if (content.slides) {
+                    for (let j = 0; j < content.slides.length; j++) {
+                        const slide = content.slides[j];
+                        const linesSlice = getContentLinesSlide(slide.lines);
+                        slides.push(linesSlice);
+                    }
+                }
             }
         }
 
