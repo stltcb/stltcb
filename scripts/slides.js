@@ -242,13 +242,14 @@
         slide.appendChild(br1);
         slide.appendChild(br2);
 
-        lines.forEach(lineText => {
-            const line = document.createElement('p');
-            line.classList.add('song-verse-large');
-            line.innerText = lineText;
-            slide.appendChild(line);
-        });
-
+        if (lines) {
+            lines.forEach(lineText => {
+                const line = document.createElement('p');
+                line.classList.add('song-verse-large');
+                line.innerText = lineText;
+                slide.appendChild(line);
+            });
+        }
         return slide;
     }
 
