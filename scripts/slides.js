@@ -208,6 +208,9 @@
     function getSectionHeaderSlide(titleText, subTitleText) {
         const slide = getSlide();
 
+        const div = document.createElement('div');
+        div.classList.add('section');
+
         const title = document.createElement('p');
         title.classList.add('section-title');
         title.innerText = titleText;
@@ -216,8 +219,12 @@
         subTitle.classList.add('section-sub-title');
         subTitle.innerText = subTitleText;
 
-        slide.appendChild(title);
-        slide.appendChild(subTitle);
+        div.appendChild(title);
+        div.appendChild(subTitle);
+        slide.appendChild(div);
+
+        // slide.appendChild(title);
+        // slide.appendChild(subTitle);
 
         return slide;
     }
@@ -242,14 +249,13 @@
         slide.appendChild(br1);
         slide.appendChild(br2);
 
-        if (lines) {
-            lines.forEach(lineText => {
-                const line = document.createElement('p');
-                line.classList.add('song-verse-large');
-                line.innerText = lineText;
-                slide.appendChild(line);
-            });
-        }
+        lines.forEach(lineText => {
+            const line = document.createElement('p');
+            line.classList.add('song-verse-large');
+            line.innerText = lineText;
+            slide.appendChild(line);
+        });
+
         return slide;
     }
 
