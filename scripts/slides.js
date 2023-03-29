@@ -305,7 +305,7 @@
                 if (content.slides) {
                     for (let j = 0; j < content.slides.length; j++) {
                         const slide = content.slides[j];
-                        const linesSlice = getContentLinesSlide(slide.lines, slide.initial);
+                        const linesSlice = getContentLinesSlide(slide.lines, content.initial);
                         slides.push(linesSlice);
                     }
                 }
