@@ -74,14 +74,21 @@
             text-align: left;
             font-size: 3em;
             margin-left: 1em;
-            margin-bottom: 0.5em;
+            margin-bottom: 0;
         }
 
         .list {
             text-align: left;
             font-size: 2em;
+            margin-top: 0.1em;
             margin-left: 2em;
-            margin-top: 0.5em;
+        }
+
+        .list-order {
+            text-align: left;
+            font-size: 1em;
+            margin-left: 2em;
+            margin-top: 0;
         }
 
         .section-title {
