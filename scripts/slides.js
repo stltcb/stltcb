@@ -241,7 +241,7 @@
         return slide;
     }
 
-    function getContentLinesSlide(lines) {
+    function getContentLinesSlide(lines, initial) {
         const slide = getSlide();
 
         const br1 = document.createElement('br');
@@ -255,6 +255,13 @@
             line.innerText = lineText;
             slide.appendChild(line);
         });
+        if (initial) {
+            const line = document.createElement('p');
+            line.classList.add('song-verse-large');
+            line.classList.add('roght-most');
+            line.innerText = `||${initial}||`;
+            slide.appendChild(line);
+        }
 
         return slide;
     }
@@ -298,7 +305,7 @@
                 if (content.slides) {
                     for (let j = 0; j < content.slides.length; j++) {
                         const slide = content.slides[j];
-                        const linesSlice = getContentLinesSlide(slide.lines);
+                        const linesSlice = getContentLinesSlide(slide.lines, slide.initial);
                         slides.push(linesSlice);
                     }
                 }
