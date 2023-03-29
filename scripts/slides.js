@@ -184,7 +184,12 @@
 
         objSections.forEach(section => {
             const listItem = document.createElement('li');
-            listItem.innerText = section.title;
+            if (section.subtitle && section.subtitle === '' ) {
+                listItem.innerText = `${section.title}`;
+            }
+            else {
+                listItem.innerHTML = `${section.title} (<i>${section.subtitle}</i>)`;
+            }
             list.appendChild(listItem);
             if (section.content) {
                 const contentSummary = getSubSummary(section.content);
