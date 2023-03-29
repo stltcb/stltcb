@@ -316,7 +316,7 @@
                 if (content.slides) {
                     for (let j = 0; j < content.slides.length; j++) {
                         const slide = content.slides[j];
-                        const linesSlice = getContentLinesSlide(slide.lines, content.initial);
+                        const linesSlice = getContentLinesSlide(slide.lines, (j===0)? '' : content.initial);
                         slides.push(linesSlice);
                     }
                 }
