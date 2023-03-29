@@ -170,6 +170,11 @@
 
         const slide = getSlide();
 
+        const br1 = document.createElement('br');
+        const br2 = document.createElement('br');
+        slide.appendChild(br1);
+        slide.appendChild(br2);
+
         const title = document.createElement('p');
         title.classList.add('list-title');
         title.innerText = subTitle;
@@ -181,6 +186,10 @@
             const listItem = document.createElement('li');
             listItem.innerText = section.title;
             list.appendChild(listItem);
+            if (section.content) {
+                const contentSummary = getSubSummary(section.content);
+                list.appendChild(contentSummary);
+            }
         });
 
         slide.appendChild(title);
@@ -189,6 +198,19 @@
         return slide;
     }
 
+    function getSubSummary(content) {
+
+        const list = document.createElement('ol');
+        list.classList.add('list-order');
+
+        content.forEach(element => {
+            const listItem = document.createElement('li');
+            listItem.innerText = element.heading;
+            list.appendChild(listItem);
+        });
+
+        return list;
+    }
 
     function getSectionHeaderSlide(titleText, subTitleText) {
         const slide = getSlide();
