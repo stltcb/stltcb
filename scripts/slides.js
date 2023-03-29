@@ -116,40 +116,25 @@
         pageNumber=0;
         previousSlide();
     }
-
     function increaseFont() {
-        var titles = document.getElementsByClassName('song-title');
-        for (let i = 0; i < titles.length; i++) {
-            const title = titles[i];
-            var style = window.getComputedStyle(title, null).getPropertyValue('font-size');
-            var fontSize = parseFloat(style);
-            title.style.fontSize = (fontSize + 3) + 'px';
-        }
-
-        var verses = document.getElementsByClassName('song-verse-large');
-        for (let j = 0; j < verses.length; j++) {
-            const verse = verses[j];
-            var style = window.getComputedStyle(verse, null).getPropertyValue('font-size');
-            var fontSize = parseFloat(style);
-            verse.style.fontSize = (fontSize + 3) + 'px';
-        }
+        changeFont('song-title', 5);
+        changeFont('song-verse-large', 5);
+        changeFont('song-verse-right', 5);
     }
 
     function decreaseFont() {
-        var titles = document.getElementsByClassName('song-title');
+        changeFont('song-title', -5);
+        changeFont('song-verse-large', -5);
+        changeFont('song-verse-right', -5);
+    }
+
+    function changeFont(className, delta) {
+        var titles = document.getElementsByClassName(className);
         for (let i = 0; i < titles.length; i++) {
             const title = titles[i];
             var style = window.getComputedStyle(title, null).getPropertyValue('font-size');
             var fontSize = parseFloat(style);
-            title.style.fontSize = (fontSize - 3) + 'px';
-        }
-
-        var verses = document.getElementsByClassName('song-verse-large');
-        for (let j = 0; j < verses.length; j++) {
-            const verse = verses[j];
-            var style = window.getComputedStyle(verse, null).getPropertyValue('font-size');
-            var fontSize = parseFloat(style);
-            verse.style.fontSize = (fontSize - 3) + 'px';
+            title.style.fontSize = (fontSize + (delta)) + 'px';
         }
     }
 
