@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>TCB Worship</title>
+
+    <link rel="stylesheet" href="css/slides.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src="scripts/slides.js"></script>
+  
+</head>
+
+<body>
+    <container>
+        <div class="wrapper">
+            <header class="page-header">TCB Family Worship
+                 <label id="date" class="right-footer">Date: 03/22/2023</label></header>
+            <main id="presentation" class="page-body">
+            </main>
+            <footer class="page-footer">
+                <button type="button" onclick="decreaseFont();" ><i class="fa fa-font"></i></button>
+                <button type="button" onclick="increaseFont();"><i class="fa fa-font fa-lg"></i></button>
+                |
+                <button type="button" onclick="goHome();" ><i class="fa fa-fast-backward"></i></button>
+                <button type="button" onclick="goBack();"><i class="fa fa-backward"></i></button>
+                <button type="button" onclick="stepBack();"><i class="fa fa-step-backward"></i></button>
+                |
+                <button type="button" onclick="previousSlide();" ><i class="fa fa-arrow-up"></i></button>
+                <button type="button" onclick="nextSlide();"><i class="fa fa-arrow-down"></i></button>
+                <label id="pageNumber" class="right-footer"></label>
+            </footer>
+        </div>
+    </container>
+</body>
+
+<script>
+    var pageNumber = 0;
+    var pageLength = 0;
+
+    addProgram();
+    pageLength = document.getElementsByClassName('slide').length;
+    //hideAll();
+    //showSlide(pageNumber);
+    //updateFooter();
+
+</script>
+</html>
