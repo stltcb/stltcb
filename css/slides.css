@@ -1,4 +1,3 @@
-
         html {
             height:100%;
             box-sizing: border-box;
@@ -86,21 +85,33 @@
         }
 
         .section-title {
-            font-size: 5em;
+            font-size: 6em;
             font-weight: bold;
-            margin: 0;
-            position: absolute;
-            display:inline;
-            top: 30%;
+            /* margin: 0; */
+            margin-bottom: 0;
+            text-align: center;
+            /* position: absolute;
+            top: 40%;
             left: 50%;
-            transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); */
         }
 
         .section-sub-title {
             font-size: 3em;
-            margin: 0;
+            /* margin: 0; */
+            margin-top: 0;
+            text-align: center;
+            /* position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); */
+        }
+
+        .section {
             position: absolute;
-            top: 60%;
+            text-align: center;
+            width: 100%;
+            top: 40%;
             left: 50%;
             transform: translate(-50%, -50%);
         }
@@ -110,6 +121,8 @@
             font-weight: bold;
             margin: 0;
             position: absolute;
+            text-align: center;
+            width: 100%;
             top: 40%;
             left: 50%;
             transform: translate(-50%, -50%);
@@ -150,5 +163,11 @@
         .right-footer {
             position: absolute;
             right: 0;
+            padding-right: 20px;
+        }
+
+        .right-most {
+            position: absolute;
+            right: 30;
             padding-right: 20px;
         }
