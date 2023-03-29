@@ -166,8 +166,9 @@
             padding-right: 20px;
         }
 
-        .right-most {
+        .right-most-verse {
             position: absolute;
-            right: 30;
+            right: 0;
+            font-size: 4em;
             padding-right: 20px;
         }
