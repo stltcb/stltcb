@@ -6,6 +6,7 @@ function grabLyrics() {
   var song = {
       heading: '',
       initial: '',
+      choruslines: 0,
       slides: []
   };
   var linesObj = {
