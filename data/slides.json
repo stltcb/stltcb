@@ -16,6 +16,7 @@
         {
           "heading": "రాజులకు రాజైన ఈ మన విభుని",
           "initial": "రాజులకు",
+          "choruslines": 2,
           "slides": [
             {
               "lines": [
@@ -52,7 +53,7 @@
           ]
         },
         {
-          "heading": "ఈలాటిదా యేసు ప్రేమ -నన్ను",
+          "heading": "ఈలాటిదా యేసు ప్రేమ",
           "initial": "ఈలాటిదా",
           "slides": [
             {
@@ -115,6 +116,7 @@
         {
           "heading": "ఎంతో వింత యెంతో చింత",
           "initial": "ఎంతో",
+          "choruslines": 2,
           "slides": [
             {
               "lines": [
@@ -169,6 +171,7 @@
         {
           "heading": "భాసిల్లెను సిలువలో పాపక్షమా",
           "initial": "భాసిల్లెను",
+          "choruslines": 2,
           "slides": [
             {
               "lines": [
@@ -223,6 +226,7 @@
         {
           "heading": "Bless the Lord, O my soul",
           "initial": "Bless the Lord",
+          "choruslines": 4,
           "slides": [
             {
               "lines": [
