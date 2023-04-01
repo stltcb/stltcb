@@ -277,6 +277,33 @@
         return slide;
     }
 
+    function getChorusSlide(lines, header, chorusLines) {
+        const slide = getSlide();
+
+        const br1 = document.createElement('br');
+        const br2 = document.createElement('br');
+        slide.appendChild(br1);
+        slide.appendChild(br2);
+
+        if (chorusLines == 0) {
+            lines.unshift(header);
+            chorusLines = 1;
+        }
+
+        for (let i = 0; i < chorusLines; i++) {
+            var lineText = lines[i];
+            if (lineText && lineText.indexOf('(') > 0) {
+                lineText = lineText.split('(')[0];
+            }
+            const line = document.createElement('p');
+            line.classList.add('song-verse-large');
+            line.innerText = lineText;
+            slide.appendChild(line);
+        }
+
+        return slide;
+    }
+
     function getSection(slides, name) {
         const section = document.createElement('div');
         section.classList.add('section');
@@ -300,7 +327,6 @@
         return section;
     }
 
-
     function getSlidesForSection(section) {
 
         const slides = [];
@@ -316,8 +342,12 @@
                 if (content.slides) {
                     for (let j = 0; j < content.slides.length; j++) {
                         const slide = content.slides[j];
-                        const linesSlice = getContentLinesSlide(slide.lines, (j===0)? '' : content.initial);
-                        slides.push(linesSlice);
+                        const linesSlide = getContentLinesSlide(slide.lines, (j===0)? '' : content.initial);
+                        slides.push(linesSlide);
+                        if (j > 0 && content.choruslines) {
+                            const chorusSlide = getChorusSlide(content.slides[0].lines, content.heading, content.choruslines);
+                            slides.push(chorusSlide);
+                        }
                     }
                 }
             }
