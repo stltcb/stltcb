@@ -59,40 +59,40 @@
 
         .title {
             text-align: left;
-            font-size: 7em;
+            font-size: 5em;
             font-weight: bold;
             margin-bottom: 0px;
         }
 
         .sub-title {
             text-align: left;
-            font-size: 3em;
+            font-size: 1em;
             margin-top: 0px;
         }
 
         .list-title {
             text-align: left;
-            font-size: 3em;
+            font-size: 2em;
             margin-left: 1em;
             margin-bottom: 0;
         }
 
         .list {
             text-align: left;
-            font-size: 2em;
+            font-size: 1em;
             margin-top: 0.1em;
             margin-left: 2em;
         }
 
         .list-order {
             text-align: left;
-            font-size: 1em;
+            font-size: 0.5em;
             margin-left: 2em;
             margin-top: 0;
         }
 
         .section-title {
-            font-size: 6em;
+            font-size: 4em;
             font-weight: bold;
             /* margin: 0; */
             margin-bottom: 0;
@@ -104,7 +104,7 @@
         }
 
         .section-sub-title {
-            font-size: 3em;
+            font-size: 1em;
             /* margin: 0; */
             margin-top: 0;
             text-align: left;
@@ -124,7 +124,7 @@
         }
 
         .song-title {
-            font-size: 4em;
+            font-size: 2em;
             font-weight: bold;
             margin: 0;
             /* position: absolute; */
@@ -137,25 +137,25 @@
 
         .song-verse-large {
             text-align: left;
-            font-size: 4em;
+            font-size: 2em;
             margin: 0;
         }
 
         .song-verse {
             text-align: left;
-            font-size: 3em;
+            font-size: 1em;
             margin: 0;
         }
 
         .song-verse-small {
             text-align: left;
-            font-size: 2em;
+            font-size: 0.5em;
             margin: 0;
         }
 
         .title-left {
             text-align: left;
-            font-size: xx-large;
+            font-size: large;
             padding-left: 50px;
         }
 
@@ -177,7 +177,7 @@
             /* position: absolute; */
             right: 0;
             margin: 0;
-            font-size: 4em;
+            font-size: 2em;
             padding-right: 20px;
             text-align: right;
         }
