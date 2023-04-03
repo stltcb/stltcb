@@ -341,10 +341,10 @@
                       const slide = content.slides[j];
                       const linesSlide = getContentLinesSlide(slide.lines, (j===0)? '' : content.initial);
                       slides.push(linesSlide);
-                      if (j > 0 && content.choruslines) {
-                          const chorusSlide = getChorusSlide(content.slides[0].lines, content.heading, content.choruslines);
-                          slides.push(chorusSlide);
-                      }
+//                       if (j > 0 && content.choruslines) {
+//                           const chorusSlide = getChorusSlide(content.slides[0].lines, content.heading, content.choruslines);
+//                           slides.push(chorusSlide);
+//                       }
                   }
               }
           }
