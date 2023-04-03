@@ -265,7 +265,7 @@
         });
         if (initial) {
             const line = document.createElement('p');
-            line.classList.add('song-verse-large');
+            line.classList.add('song-verse-right');
             line.innerText = `||${initial}||`;
             slide.appendChild(line);
         }
