@@ -377,7 +377,7 @@
         const rootSection = getSection([rootSlide], '');
 
         const backGround = document.getElementById('backGround');
-        if (obj.background) {
+        if (obj.background && obj.background === '') {
             backGround.style.backgroundImage = `url("${obj.background}")`;
         }
         
@@ -386,7 +386,6 @@
         const summarySlide = getSummarySlide(obj.sections, obj.subtitle);
         const summarySection = getSection([summarySlide], 'Summary');
         body.appendChild(summarySection);
-
 
         for (let index = 0; index < obj.sections.length; index++) {
             const objSection = obj.sections[index];
