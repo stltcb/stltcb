@@ -50,9 +50,10 @@
 </head>
 
 <body>
+    <h1><center>TCB Program Generator</center></h1>
     <table>
         <tr>
-            <td></td>
+            <td colspan="3"></td>
         </tr>
         <tr>
             <td><label for="date">Worship Date:</label></td>
@@ -71,14 +72,15 @@
             </td>
         </tr>
         <tr>
-            <td><label for="title">Background:</label></td>
-            <td><input type="text" id="backGround" name="title"></td>
+            <td><label for="backGround">Background:</label></td>
+            <td><input type="text" id="backGround" name="backGround"></td>
             <td></td>
         </tr>
         <tr>
             <td>
             </td>
             <td width="60%">
+                <button type="button" onclick="loadProgram()">Load From Server</button>
                 <button type="button" onclick="refreshSections()">Refresh</button>
                 <button type="button" onclick="initData()">Add</button>
                 <button type="button" onclick="clearData()">Clear</button>
@@ -282,7 +284,7 @@ const data = {
         cell4.innerHTML = section.subtitle;
 
         if (section.name.indexOf('Song') >= 0) {
-            songsButton = `<button type="button" onclick="addSongs(${i}, '${section.name}');">AddSongs</button>`;
+            //songsButton = `<button type="button" onclick="addSongs(${i}, '${section.name}');">AddSongs</button>`;
         }
 
         cell5.innerHTML = `<button type="button" onclick="removeSection(${i}, '${section.name}');">Remove</button> ${songsButton}`;
@@ -517,6 +519,26 @@ const data = {
 
     return undefined;
   }
+
+  function loadProgram() {
+    const sData = getProgram();
+    if (sData) {
+        saveData(sData);
+        refreshSections();
+    }
+  }
+
+  function httpGet(theUrl) {
+        let xmlHttpReq = new XMLHttpRequest();
+        xmlHttpReq.open("GET", theUrl, false);
+        xmlHttpReq.send(null);
+        return xmlHttpReq.responseText;
+    }
+
+    function getProgram() {
+        var data = httpGet('https://stltcb.github.io/data/slides.json');
+        return JSON.parse(data);
+    }
 
 </script>
 </html>
