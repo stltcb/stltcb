@@ -377,7 +377,7 @@
         const rootSection = getSection([rootSlide], '');
 
         const backGround = document.getElementById('backGround');
-        if (obj.background && obj.background === '') {
+        if (obj.background && obj.background != '') {
             backGround.style.backgroundImage = `url("${obj.background}")`;
         }
         
