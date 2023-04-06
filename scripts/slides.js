@@ -116,6 +116,7 @@
         pageNumber=0;
         previousSlide();
     }
+    
     function increaseFont() {
         changeFont('song-title', 5);
         changeFont('song-verse-large', 5);
@@ -375,6 +376,11 @@
         const rootSlide = getRootSlide(obj.title, obj.date);
         const rootSection = getSection([rootSlide], '');
 
+        const backGround = document.getElementById('backGround');
+        if (obj.background) {
+            backGround.style.backgroundImage = `url("${obj.background}")`;
+        }
+        
         body.appendChild(rootSection);
 
         const summarySlide = getSummarySlide(obj.sections, obj.subtitle);
