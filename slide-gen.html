@@ -31,7 +31,7 @@
             width: 100%;
         }
         td, th {
-            border: 1px solid #dddddd;
+            /* border: 1px solid #dddddd; */
             text-align: left;
             padding: 8px;
         }
@@ -68,16 +68,21 @@
             <td><label for="subTitle">Sub Title:</label></td>
             <td><input type="text" id="subTitle" name="subTitle"></td>
             <td>
-                <button type="button" onclick="refreshSections()">Refresh</button>
-                <button type="button" onclick="initData()">Add</button>
-                <button type="button" onclick="clearData()">Clear</button>
-                <button type="button" onclick="copyProgram()">Copy Program</button>
             </td>
+        </tr>
+        <tr>
+            <td><label for="title">Background:</label></td>
+            <td><input type="text" id="backGround" name="title"></td>
+            <td></td>
         </tr>
         <tr>
             <td>
             </td>
             <td width="60%">
+                <button type="button" onclick="refreshSections()">Refresh</button>
+                <button type="button" onclick="initData()">Add</button>
+                <button type="button" onclick="clearData()">Clear</button>
+                <button type="button" onclick="copyProgram()">Copy Program</button>
             </td>
             <td width="30%">
             </td>
@@ -166,6 +171,7 @@ const data = {
         date: "",
         title: "",
         subtitle: "",
+        background: "",
         sections: []
     };
 
@@ -225,10 +231,12 @@ const data = {
     const date = document.getElementById('date').value;
     const title = document.getElementById('title').value;
     const subTitle = document.getElementById('subTitle').value;
+    const backGround = document.getElementById('backGround').value;
 
     data.date = date;
     data.title = title;
     data.subtitle = subTitle;
+    data.background = backGround;
     data.sections = [];
 
     saveData(data);
@@ -246,6 +254,7 @@ const data = {
     document.getElementById('date').value = sData.date;
     document.getElementById('title').value = sData.title;
     document.getElementById('subTitle').value = sData.subtitle;
+    document.getElementById('backGround').value = sData.background;
 
     const sections = document.getElementById('sections');
     const len = sections.rows.length;
@@ -300,7 +309,6 @@ const data = {
 
     var slidesData = document.getElementById("slidesData");
     slidesData.innerHTML = JSON.stringify(sData, undefined, 4);
-
 
     const songScript = document.getElementById('songScript');
     songScript.value = `    var text = document.getElementsByClassName('ui-tabs-panel ui-corner-bottom ui-widget-content')[0].innerText;
