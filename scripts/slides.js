@@ -7,6 +7,7 @@
     }
 
     function getProgram() {
+        // var data = httpGet('https://anilkkt.github.io/data/program.json');
         var data = httpGet('https://stltcb.github.io/data/slides.json');
         return JSON.parse(data);
     }
@@ -116,7 +117,7 @@
         pageNumber=0;
         previousSlide();
     }
-    
+
     function increaseFont() {
         changeFont('song-title', 5);
         changeFont('song-verse-large', 5);
@@ -254,7 +255,7 @@
         return slide;
     }
 
-    function getContentLinesSlide(lines, initial) {
+    function getContentLinesSlide(lines, initial, nextSlide) {
         const slide = getSlide();
 
         const br1 = document.createElement('br');
@@ -274,22 +275,28 @@
             line.innerText = `||${initial}||`;
             slide.appendChild(line);
         }
+        else  if (lines.length < 6 && nextSlide) {
+            const hr = document.createElement('hr');
+            slide.appendChild(hr);
+
+            const b1 = document.createElement('br');
+            slide.appendChild(b1);
+            const nl = document.createElement('p');
+            nl.classList.add('song-verse-small');
+            nl.innerText = nextSlide.lines[0];
+            slide.appendChild(nl);
+        }
 
         return slide;
     }
 
-    function getChorusSlide(lines, header, chorusLines) {
+    function getChorusSlide(lines, header, chorusLines, nextSlide) {
         const slide = getSlide();
 
         const br1 = document.createElement('br');
         const br2 = document.createElement('br');
         slide.appendChild(br1);
         slide.appendChild(br2);
-
-        if (chorusLines == 0) {
-            lines.unshift(header);
-            chorusLines = 1;
-        }
 
         for (let i = 0; i < chorusLines; i++) {
             var lineText = lines[i];
@@ -300,6 +307,18 @@
             line.classList.add('song-verse-large');
             line.innerText = lineText;
             slide.appendChild(line);
+        }
+
+        if (lines.length < 6 && nextSlide) {
+            const hr = document.createElement('hr');
+            slide.appendChild(hr);
+
+            const b1 = document.createElement('br');
+            slide.appendChild(b1);
+            const nl = document.createElement('p');
+            nl.classList.add('song-verse-small');
+            nl.innerText = nextSlide.lines[0];
+            slide.appendChild(nl);
         }
 
         return slide;
@@ -341,12 +360,14 @@
                 const contentHeaderSlide = getContentHeaderSlide(content.heading);
                 slides.push(contentHeaderSlide);
                 if (content.slides) {
-                    for (let j = 0; j < content.slides.length; j++) {
+                    const slideLen = content.slides.length;
+                    for (let j = 0; j < slideLen; j++) {
                         const slide = content.slides[j];
-                        const linesSlide = getContentLinesSlide(slide.lines, (j===0)? '' : content.initial);
+                        const nextSlide = (j < (slideLen-1)) ? content.slides[j+1] : undefined;
+                        const linesSlide = getContentLinesSlide(slide.lines, (j===0)? '' : content.initial, nextSlide);
                         slides.push(linesSlide);
-                        if (j > 0 && content.choruslines) {
-                            const chorusSlide = getChorusSlide(content.slides[0].lines, content.heading, content.choruslines);
+                        if (j > 0 && content.choruslines && content.choruslines > 0) {
+                            const chorusSlide = getChorusSlide(content.slides[0].lines, content.heading, content.choruslines, nextSlide);
                             slides.push(chorusSlide);
                         }
                     }
@@ -373,19 +394,23 @@
         dateLabel.innerText = `Date: ${obj.date}`;
 
         const body = document.getElementById('presentation');
-        const rootSlide = getRootSlide(obj.title, obj.subtitle);
+        const rootSlide = getRootSlide(obj.title, obj.date);
         const rootSection = getSection([rootSlide], '');
 
+        obj.background = 'https://www.w3schools.com/howto/img_parallax.jpg';
+        obj.background = 'https://i.swncdn.com/media/800w/via/8133-sunburst-through-lilac-clouds-in-sky-rising-c.webp';
+
         const backGround = document.getElementById('backGround');
-        if (obj.background && obj.background != '') {
+        if (obj.background) {
             backGround.style.backgroundImage = `url("${obj.background}")`;
         }
-        
+
         body.appendChild(rootSection);
 
         const summarySlide = getSummarySlide(obj.sections, obj.subtitle);
         const summarySection = getSection([summarySlide], 'Summary');
         body.appendChild(summarySection);
+
 
         for (let index = 0; index < obj.sections.length; index++) {
             const objSection = obj.sections[index];
