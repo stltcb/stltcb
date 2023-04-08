@@ -1,4 +1,19 @@
 
+  function getContent() {
+    alert('asdf');
+    fetch('https://christianlyricz.com/2017/02/06/gatha-kaalamantha/')
+      .then(response => response.text())
+      .then(html => {
+        console.log(html); // the HTML content of the URL as a string
+      })
+      .catch(error => console.error(error));
+      alert('1234');
+  }
+
+    var textSize = 0;
+    var pageNumber = 0;
+    var pageLength = 0;
+
     function httpGet(theUrl) {
         let xmlHttpReq = new XMLHttpRequest();
         xmlHttpReq.open("GET", theUrl, false);
@@ -150,7 +165,7 @@
         subTitle.innerText = subTitleText;
 
         slide.appendChild(title);
-        slide.appendChild(subTitle);
+        // slide.appendChild(subTitle);
 
         return slide;
     }
@@ -158,11 +173,6 @@
     function getSummarySlide(objSections, subTitle) {
 
         const slide = getSlide();
-
-        const br1 = document.createElement('br');
-        const br2 = document.createElement('br');
-        slide.appendChild(br1);
-        slide.appendChild(br2);
 
         const title = document.createElement('p');
         title.classList.add('list-title');
@@ -341,10 +351,10 @@
                       const slide = content.slides[j];
                       const linesSlide = getContentLinesSlide(slide.lines, (j===0)? '' : content.initial);
                       slides.push(linesSlide);
-//                       if (j > 0 && content.choruslines) {
-//                           const chorusSlide = getChorusSlide(content.slides[0].lines, content.heading, content.choruslines);
-//                           slides.push(chorusSlide);
-//                       }
+                      if (j > 0 && content.choruslines) {
+                          const chorusSlide = getChorusSlide(content.slides[0].lines, content.heading, content.choruslines);
+                          slides.push(chorusSlide);
+                      }
                   }
               }
           }
@@ -366,7 +376,7 @@
         }
 
         const body = document.getElementById('presentation');
-        const rootSlide = getRootSlide(obj.title, obj.date);
+        const rootSlide = getRootSlide(obj.title, obj.subtitle);
         const rootSection = getSection([rootSlide], '');
 
         body.appendChild(rootSection);
