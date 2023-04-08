@@ -1,4 +1,3 @@
-
   function getContent() {
     alert('asdf');
     fetch('https://christianlyricz.com/2017/02/06/gatha-kaalamantha/')
@@ -241,14 +240,8 @@
         const slide = getSlide();
 
         const br1 = document.createElement('br');
-        const br2 = document.createElement('br');
-        const br3 = document.createElement('br');
-        const br4 = document.createElement('br');
 
         slide.appendChild(br1);
-        slide.appendChild(br2);
-        slide.appendChild(br3);
-        slide.appendChild(br4);
 
         const title = document.createElement('p');
         title.classList.add('song-title');
@@ -263,9 +256,7 @@
         const slide = getSlide();
 
         const br1 = document.createElement('br');
-        const br2 = document.createElement('br');
         slide.appendChild(br1);
-        slide.appendChild(br2);
 
         lines.forEach(lineText => {
             const line = document.createElement('p');
@@ -287,14 +278,12 @@
         const slide = getSlide();
 
         const br1 = document.createElement('br');
-        const br2 = document.createElement('br');
         slide.appendChild(br1);
-        slide.appendChild(br2);
 
-        if (chorusLines == 0) {
-            lines.unshift(header);
-            chorusLines = 1;
-        }
+        // if (chorusLines == 0) {
+        //     lines.unshift(header);
+        //     chorusLines = 1;
+        // }
 
         for (let i = 0; i < chorusLines; i++) {
             var lineText = lines[i];
@@ -351,10 +340,10 @@
                       const slide = content.slides[j];
                       const linesSlide = getContentLinesSlide(slide.lines, (j===0)? '' : content.initial);
                       slides.push(linesSlide);
-                      if (j > 0 && content.choruslines) {
-                          const chorusSlide = getChorusSlide(content.slides[0].lines, content.heading, content.choruslines);
-                          slides.push(chorusSlide);
-                      }
+                    //   if (j > 0 && content.choruslines) {
+                    //       const chorusSlide = getChorusSlide(content.slides[0].lines, content.heading, content.choruslines);
+                    //       slides.push(chorusSlide);
+                    //   }
                   }
               }
           }
