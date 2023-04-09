@@ -292,6 +292,23 @@ const data = {
         if (section.content) {
             section.content.forEach(content => {
                 subSectionLen++;
+
+                const upButton = `<button type="button" onclick="moveSong(${subSectionLen-1}, '${content.heading}', 1);"><i class="fa fa-arrow-up"></i></button>`
+                const downButton = `<button type="button" onclick="moveSong(${subSectionLen-1}, '${content.heading}', -1);"><i class="fa fa-arrow-down"></i></button>`
+                const removeButton = `<button type="button" onclick="removeSong(${subSectionLen-1}, '${content.heading}');"><i class="fa fa-remove"></i></button>`
+
+                let buttonList = '';
+
+                if (subSectionLen==1) {
+                    buttonList = `${removeButton} ${downButton}`;
+                }
+                else if(subSectionLen === section.content.length) {
+                    buttonList = `${removeButton} ${upButton}`;
+                }
+                else {
+                    buttonList = `${removeButton} ${downButton} ${upButton}`;
+                }
+
                 var row = sections.insertRow(i+subSectionLen);
                 var cell1 = row.insertCell(0);
                 var cell2 = row.insertCell(1);
@@ -303,7 +320,7 @@ const data = {
                 cell2.innerHTML = subSectionLen;
                 cell3.innerHTML = content.heading;
                 cell4.innerHTML = `${content.initial} (${content.choruslines})`;
-                cell5.innerHTML = `<button type="button" onclick="removeSong(${subSectionLen-1}, '${content.heading}');">Remove</button>`;
+                cell5.innerHTML = buttonList;
             });
         }
         i++;
@@ -411,7 +428,19 @@ const data = {
     refreshSections();
 }
 
-  function getContent() {
+function moveSong(indx, name, delta) {
+
+    const sData = getSavedData();
+    let songsSection = sData.sections.find(sec => sec.name.indexOf('Song') >= 0);
+    var song = songsSection.content.splice(indx, 1)[0];
+    songsSection.content.splice(indx-delta, 0, song);
+
+    saveData(sData);
+    refreshSections();
+}
+
+
+function getContent() {
     const content = [];
     return content;
   }
