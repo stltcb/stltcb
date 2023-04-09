@@ -394,7 +394,7 @@
         dateLabel.innerText = `Date: ${obj.date}`;
 
         const body = document.getElementById('presentation');
-        const rootSlide = getRootSlide(obj.title, obj.date);
+        const rootSlide = getRootSlide(obj.title, obj.subtitle);
         const rootSection = getSection([rootSlide], '');
 
         obj.background = 'https://www.w3schools.com/howto/img_parallax.jpg';
