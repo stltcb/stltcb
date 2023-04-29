@@ -419,3 +419,15 @@
             body.appendChild(viewSection);
         }
     }
+
+    function enableBroadcast(channelName) {
+        const bc = new BroadcastChannel(channelName);
+        var allButtons = document.querySelectorAll('button[type^=button]');
+        for (var i = 0; i < allButtons.length; i++) {
+            allButtons[i].addEventListener('click', function() {
+                console.clear();
+                console.log("You clicked:", this.innerHTML);
+                bc.postMessage(this.id);
+            });
+        }
+    }
