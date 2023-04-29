@@ -431,3 +431,11 @@
             });
         }
     }
+
+    function handleBroadcast(channelName) {
+        const bc = new BroadcastChannel(channelName);
+        bc.onmessage = function (ev) {
+            console.log(ev.data);
+            document.getElementById(ev.data).click();
+        }
+    }
