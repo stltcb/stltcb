@@ -1,13 +1,13 @@
 {
-    "date": "04/22/2023",
+    "date": "05/13/2023",
     "title": "TCB Family Worship",
-    "subtitle": "May 22nd 2023",
+    "subtitle": "May 13th 2023",
     "background": "https://i.swncdn.com/media/800w/via/8133-sunburst-through-lilac-clouds-in-sky-rising-c.webp",
     "sections": [
         {
             "name": "Starting Prayer",
             "title": "Starting Prayer",
-            "subtitle": "Bro. Pradeep"
+            "subtitle": "Bro. Dinesh"
         },
         {
             "name": "Songs",
@@ -305,7 +305,7 @@
         {
             "name": "Sermon",
             "title": "Sermon",
-            "subtitle": "Bro. John David"
+            "subtitle": "Bro. Marcus"
         },
         {
             "name": "Announcenments",
@@ -315,7 +315,7 @@
         {
             "name": "Closing Prayer",
             "title": "Closing Prayer",
-            "subtitle": "Bro. Uday"
+            "subtitle": "Bro. Pradeep"
         }
     ]
 }
