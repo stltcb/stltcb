@@ -1,200 +1,236 @@
 {
-  "date": "07/15/2023",
-  "title": "TCB Family Worship",
-  "subtitle": "July 17th 2023",
-  "background": "https://i.swncdn.com/media/800w/via/8133-sunburst-through-lilac-clouds-in-sky-rising-c.webp",
-  "sections": [
-    {
-      "name": "Starting Prayer",
-      "title": "Starting Prayer",
-      "subtitle": "Bro. Kanthi"
-    },
-    {
-      "name": "Songs",
-      "title": "Songs",
-      "subtitle": "Praise Him",
-      "content": [
+    "date": "07/15/2023",
+    "title": "TCB Family Worship",
+    "subtitle": "July 17th 2023",
+    "background": "https://i.swncdn.com/media/800w/via/8133-sunburst-through-lilac-clouds-in-sky-rising-c.webp",
+    "sections": [
         {
-          "heading": "రమ్మనుచున్నాడు నిన్ను ప్రభు యేసు",
-          "initial": "రమ్మను",
-          "choruslines": "3",
-          "slides": [
-            {
-              "lines": [
-                "రమ్మనుచున్నాడు నిన్ను ప్రభు యేసు",
-                "వాంఛతో తన కరము చాపి",
-                "రమ్మనుచున్నాడు (2)"
-              ]
-            },
-            {
-              "lines": [
-                "ఎటువంటి శ్రమలందును ఆదరణ నీకిచ్చునని (2)",
-                "గ్రహించి నీవు యేసుని చూచిన",
-                "హద్దు లేని ఇంపు పొందెదవు (2)"
-              ]
-            },
-            {
-              "lines": [
-                "కన్నీరంతా తుడుచును కనుపాపవలె కాపాడున్ (2)",
-                "కారు మేఘమువలె కష్టములు వచ్చిననూ",
-                "కనికరించి నిన్ను కాపాడును (2)"
-              ]
-            },
-            {
-              "lines": [
-                "సోమ్మసిల్లు వేళలో బలమును నీకిచ్చును (2)",
-                "ఆయన నీ వెలుగు రక్షణనై యుండును",
-                "ఆలసింపక త్వరపడి రమ్ము (2)"
-              ]
-            }
-          ]
+            "name": "Starting Prayer",
+            "title": "Starting Prayer",
+            "subtitle": "Bro. Kanthi"
         },
         {
-          "heading": "లెక్కించలేని స్తోత్రముల్",
-          "initial": "లెక్కించలేని",
-          "choruslines": "2",
-          "slides": [
-            {
-              "lines": [
-                "లెక్కించలేని స్తోత్రముల్",
-                "దేవా ఎల్లప్పుడూ నే పాడెదన్",
-                "దేవా ఎల్లప్పుడూ నే పాడెదన్ (2)",
-                "ఇంత వరకు నా బ్రతుకులో&nbsp;(2)",
-                "నువ్వు చేసిన మేళ్ళకై"
-              ]
-            },
-            {
-              "lines": [
-                "ఆకాశ మహాకాశముల్",
-                "వాటియందున్న సర్వంబును (2)",
-                "భూమిలో కనబడునవన్ని&nbsp;(2)",
-                "ప్రభువా నిన్నే కీర్తించున్"
-              ]
-            },
-            {
-              "lines": [
-                "అడవిలో నివసించువన్ని",
-                "సుడిగాలియు మంచును (2)",
-                "భూమిపైనున్నవన్ని&nbsp;(2)",
-                "దేవా నిన్నే పొగడును"
-              ]
-            },
-            {
-              "lines": [
-                "నీటిలో నివసించు ప్రాణుల్",
-                "ఈ భువిలోన జీవ రాసులు (2)",
-                "ఆకాశమున ఎగురునవన్ని (2)",
-                "ప్రభువా నిన్నే కీర్తించున్"
-              ]
-            }
-          ]
+            "name": "Songs",
+            "title": "Songs",
+            "subtitle": "Praise Him",
+            "content": [
+                {
+                    "heading": "రమ్మనుచున్నాడు నిన్ను ప్రభు యేసు",
+                    "initial": "రమ్మను",
+                    "choruslines": "3",
+                    "slides": [
+                        {
+                            "lines": [
+                                "రమ్మనుచున్నాడు నిన్ను ప్రభు యేసు",
+                                "వాంఛతో తన కరము చాపి",
+                                "రమ్మనుచున్నాడు (2)"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "ఎటువంటి శ్రమలందును ఆదరణ నీకిచ్చునని (2)",
+                                "గ్రహించి నీవు యేసుని చూచిన",
+                                "హద్దు లేని ఇంపు పొందెదవు (2)"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "కన్నీరంతా తుడుచును కనుపాపవలె కాపాడున్ (2)",
+                                "కారు మేఘమువలె కష్టములు వచ్చిననూ",
+                                "కనికరించి నిన్ను కాపాడును (2)"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "సోమ్మసిల్లు వేళలో బలమును నీకిచ్చును (2)",
+                                "ఆయన నీ వెలుగు రక్షణనై యుండును",
+                                "ఆలసింపక త్వరపడి రమ్ము (2)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "heading": "లెక్కించలేని స్తోత్రముల్",
+                    "initial": "లెక్కించలేని",
+                    "choruslines": "2",
+                    "slides": [
+                        {
+                            "lines": [
+                                "లెక్కించలేని స్తోత్రముల్",
+                                "దేవా ఎల్లప్పుడూ నే పాడెదన్",
+                                "దేవా ఎల్లప్పుడూ నే పాడెదన్ (2)",
+                                "ఇంత వరకు నా బ్రతుకులో&nbsp;(2)",
+                                "నువ్వు చేసిన మేళ్ళకై"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "ఆకాశ మహాకాశముల్",
+                                "వాటియందున్న సర్వంబును (2)",
+                                "భూమిలో కనబడునవన్ని&nbsp;(2)",
+                                "ప్రభువా నిన్నే కీర్తించున్"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "అడవిలో నివసించువన్ని",
+                                "సుడిగాలియు మంచును (2)",
+                                "భూమిపైనున్నవన్ని&nbsp;(2)",
+                                "దేవా నిన్నే పొగడును"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "నీటిలో నివసించు ప్రాణుల్",
+                                "ఈ భువిలోన జీవ రాసులు (2)",
+                                "ఆకాశమున ఎగురునవన్ని (2)",
+                                "ప్రభువా నిన్నే కీర్తించున్"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "heading": "యెహోవా నా బలమా",
+                    "initial": "యెహోవా",
+                    "choruslines": "3",
+                    "slides": [
+                        {
+                            "lines": [
+                                "యెహోవా నా బలమా",
+                                "యదార్థమైనది నీ మార్గం",
+                                "పరిపూర్ణమైనది నీ మార్గం (2)"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "నా శత్రువులు నను చుట్టిననూ",
+                                "నరకపు పాశములరికట్టిననూ (2)",
+                                "వరదవలె భక్తిహీనులు పొర్లిన (2)",
+                                "విడువక నను ఎడబాయని దేవా (2)"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "మరణపుటురులలో మరువక మొరలిడ",
+                                "ఉన్నతదుర్గమై రక్షనశృంగమై (2)",
+                                "తన ఆలయములో నా మొఱ్ఱ వినెను (2)",
+                                "ఆదరెను ధరణి భయకంపముచే (2)"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "యెహోవా జీవముగల దేవా",
+                                "బహుగా స్తుతులకు అర్హుడ నీవే (2)",
+                                "అన్యజనులలో ధన్యత చూపుచు (2)",
+                                "హల్లెలూయ స్తుతిగానము చేసెద (2)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "heading": "All to Jesus, I surrender",
+                    "initial": "",
+                    "choruslines": "0",
+                    "slides": [
+                        {
+                            "lines": [
+                                "All to Jesus, I surrender",
+                                "All to Thee I freely give",
+                                "I will ever love and trust You",
+                                "In Your presence daily live"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "I surrender all, I surrender all",
+                                "All to Thee, my blessed Savior",
+                                "I surrender all"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "All to Jesus, I surrender",
+                                "Lord, I give myself to Thee",
+                                "Fill me with Your love and power",
+                                "Let Your blessing fall on me"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "I surrender all, I surrender all",
+                                "All to Thee, my blessed Savior",
+                                "I surrender all"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "All to Jesus I surrender",
+                                "Now I feel the sacred flame",
+                                "O the joy of full salvation",
+                                "Glory, glory, to Your name"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "I surrender all, I surrender all",
+                                "All to Thee, my blessed Savior",
+                                "I surrender all"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "heading": "ప్రతి రోజు చూడాలని నా ప్రభువైన యేసయ్యను",
+                    "initial": "ప్రతి",
+                    "choruslines": "2",
+                    "slides": [
+                        {
+                            "lines": [
+                                "ప్రతి రోజు చూడాలని నా ప్రభువైన యేసయ్యను",
+                                "పలుమార్లు చూడాలని నా ప్రియుడైన యేసయ్యను (2)",
+                                "తనివి తీర చూసినా నా యేసయ్య రూపం",
+                                "నా హృదయమే పొంగి పొర్లును",
+                                "నా మనసే సంతోషించును (2)"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "పరలోకమందున పరిశుద్ధ దూతలతో",
+                                "పరిశుద్ధుడు పరిశుద్ధుడు అని స్తుతియించబడుచుండెను (2)",
+                                "జీవ జలము యొద్దకు నడిపించును",
+                                "ప్రతి బాష్ప బిందువు తుడిచివేయును",
+                                "నా హృదయమే పొంగి పొర్లును",
+                                "నా మనసే సంతోషించును (2)"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "ఆకాశమందున రారాజుగా వచ్చును",
+                                "భూజనులందరు రొమ్ము కొట్టుకొనుచుందురు (2)",
+                                "కడబూరధ్వని వినిపించును",
+                                "పరలోక సైన్యముతో వచ్చును",
+                                "నా హృదయమే పొంగి పొర్లును",
+                                "నా మనసే సంతోషించును (2)"
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         {
-          "heading": "యెహోవా నా బలమా",
-          "initial": "యెహోవా",
-          "choruslines": "3",
-          "slides": [
-            {
-              "lines": [
-                "యెహోవా నా బలమా",
-                "యదార్థమైనది నీ మార్గం",
-                "పరిపూర్ణమైనది నీ మార్గం (2)"
-              ]
-            },
-            {
-              "lines": [
-                "నా శత్రువులు నను చుట్టిననూ",
-                "నరకపు పాశములరికట్టిననూ (2)",
-                "వరదవలె భక్తిహీనులు పొర్లిన (2)",
-                "విడువక నను ఎడబాయని దేవా (2)"
-              ]
-            },
-            {
-              "lines": [
-                "మరణపుటురులలో మరువక మొరలిడ",
-                "ఉన్నతదుర్గమై రక్షనశృంగమై (2)",
-                "తన ఆలయములో నా మొఱ్ఱ వినెను (2)",
-                "ఆదరెను ధరణి భయకంపముచే (2)"
-              ]
-            },
-            {
-              "lines": [
-                "యెహోవా జీవముగల దేవా",
-                "బహుగా స్తుతులకు అర్హుడ నీవే (2)",
-                "అన్యజనులలో ధన్యత చూపుచు (2)",
-                "హల్లెలూయ స్తుతిగానము చేసెద (2)"
-              ]
-            }
-          ]
+            "name": "Sermon",
+            "title": "Sermon",
+            "subtitle": "Bro. Srinivas"
         },
         {
-          "heading": "All to Jesus, I surrender",
-          "initial": "",
-          "choruslines": "0",
-          "slides": [
-            {
-              "lines": [
-                "All to Jesus, I surrender",
-                "All to Thee I freely give",
-                "I will ever love and trust You",
-                "In Your presence daily live"
-              ]
-            },
-            {
-              "lines": [
-                "I surrender all, I surrender all",
-                "All to Thee, my blessed Savior",
-                "I surrender all"
-              ]
-            },
-            {
-              "lines": [
-                "All to Jesus, I surrender",
-                "Lord, I give myself to Thee",
-                "Fill me with Your love and power",
-                "Let Your blessing fall on me"
-              ]
-            },
-            {
-              "lines": [
-                "I surrender all, I surrender all",
-                "All to Thee, my blessed Savior",
-                "I surrender all"
-              ]
-            },
-            {
-              "lines": [
-                "All to Jesus I surrender",
-                "Now I feel the sacred flame",
-                "O the joy of full salvation",
-                "Glory, glory, to Your name"
-              ]
-            },
-            {
-              "lines": [
-                "I surrender all, I surrender all",
-                "All to Thee, my blessed Savior",
-                "I surrender all"
-              ]
-            }
-          ]
+            "name": "Announcenments",
+            "title": "Announcenments",
+            "subtitle": "Praise/Prayer Points"
+        },
+        {
+            "name": "Closing Prayer",
+            "title": "Closing Prayer",
+            "subtitle": "Bro. Uday"
         }
-      ]
-    },
-    {
-      "name": "Sermon",
-      "title": "Sermon",
-      "subtitle": "Bro. Srinivas"
-    },
-    {
-      "name": "Announcenments",
-      "title": "Announcenments",
-      "subtitle": "Praise/Prayer Points"
-    },
-    {
-      "name": "Closing Prayer",
-      "title": "Closing Prayer",
-      "subtitle": "Bro. Uday"
-    }
-  ]
+    ]
 }
