@@ -439,3 +439,9 @@
             document.getElementById(ev.data).click();
         }
     }
+
+    function getServerUrl() {
+        var data = httpGet('https://stltcb.github.io/data/remote.json');
+        return JSON.parse(data).server;
+    }
+
