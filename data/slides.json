@@ -1,13 +1,13 @@
 {
-    "date": "09/09/2023",
+    "date": "10/14/2023",
     "title": "TCB Family Worship",
-    "subtitle": "Sept 9th 2023",
+    "subtitle": "Oct 14th 2023",
     "background": "https://i.swncdn.com/media/800w/via/8133-sunburst-through-lilac-clouds-in-sky-rising-c.webp",
     "sections": [
         {
             "name": "Starting Prayer",
             "title": "Starting Prayer",
-            "subtitle": "Bro. Pradeep"
+            "subtitle": "Bro. Kiran"
         },
         {
             "name": "Songs",
@@ -15,205 +15,253 @@
             "subtitle": "Praise Him",
             "content": [
                 {
-                    "heading": "గడచిన కాలము కృపలో మమ్ము",
-                    "initial": "గడచిన",
+                    "heading": "యేసన్న స్వరమన్నా",
+                    "initial": "యేసన్న",
                     "choruslines": "2",
                     "slides": [
                         {
                             "lines": [
-                                "గడచిన కాలము కృపలో మమ్ము",
-                                "దాచిన దేవా నీకే స్తోత్రము",
-                                "పగలూ రేయి కనుపాపవలె",
-                                "కాచిన దేవా నీకే స్తోత్రము (2)",
-                                "మము దాచిన దేవా నీకే స్తోత్రము",
-                                "కాపాడిన దేవా నీకే స్తోత్రము (2)",
-                                "హల్లెలూయా స్తోత్రం యేసయ్యా (2)"
+                                "యేసన్న స్వరమన్నా",
+                                "నీవెప్పుడైనా విన్నావా (2)"
                             ]
                         },
                         {
                             "lines": [
-                                "కలత చెందిన కష్టకాలమున",
-                                "కన్న తండ్రివై నను ఆదరించిన",
-                                "కలుషము నాలో కానవచ్చినా",
-                                "కాదనక నను కరుణించిన (2)",
-                                "కరుణించిన దేవా నీకే స్తోత్రము",
-                                "కాపాడిన దేవా నీకే స్తోత్రము (2)"
+                                "ఏదేను తోటలో ఆదాము చెడగా",
+                                "ఆ దేవుడే పిలిచె (2)",
+                                "యెహోవా ఎదుటను ఆదాము దాగిన (2)",
+                                "అటులనే నీవును దాగెదవా (2)"
                             ]
                         },
                         {
                             "lines": [
-                                "లోపములెన్నో దాగి ఉన్నను",
-                                "ధాతృత్వముతో నను నడిపించినా",
-                                "అవిధేయతలే ఆవరించినా",
-                                "దీవెనలెన్నో దయచేసిన (2)",
-                                "దీవించిన దేవా నీకే స్తోత్రము",
-                                "దయచూపిన తండ్రి నీకే స్తోత్రము (2)"
+                                "జనముల శబ్దము జలముల శబ్దము",
+                                "బలమైన ఉరుములతో (2)",
+                                "కలిసిన స్వరము పిలిచిన యేసు (2)",
+                                "పిలిచిన పిలుపును నీవింటివా (2)"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "ఆనాడు దేవుడు మోషేను పిలువగా",
+                                "ఆలకించెను స్వరము (2)",
+                                "ఈనాడు నీవును ఈ స్వరము వినగా (2)",
+                                "కానాను చేరగా కదిలి రావా (2)"
                             ]
                         }
                     ]
                 },
                 {
-                    "heading": "దావీదు వలె నాట్యమాడి",
-                    "initial": "దావీదు",
+                    "heading": "యేసూ ప్రభుని స్తుతించుట",
+                    "initial": "యేసూ ప్రభుని",
                     "choruslines": "2",
                     "slides": [
                         {
                             "lines": [
-                                "దావీదు వలె నాట్యమాడి",
-                                "తండ్రీని స్తుతించెదము (2)",
-                                "యేసయ్యా స్తోత్రముల్‌ (4)"
+                                "యేసూ ప్రభుని స్తుతించుట",
+                                "ఎంతో ఎంతో మంచిది (2)",
+                                "మహోన్నతుడా నీ నామమును",
+                                "స్తుతించుటయే బహు మంచిది (2)",
+                                "హల్లెలూయా హల్లెలూయా",
+                                "హల్లెలూయా హల్లెలూయా"
                             ]
                         },
                         {
                             "lines": [
-                                "తంబురతోను సితారతోను",
-                                "తండ్రీని స్తుతించెదను (2)"
+                                "విలువైన రక్తము సిలువలో కార్చి",
+                                "కలుషాత్ముల మమ్ము ప్రభు కడిగెను (2)",
+                                "హల్లెలూయా హల్లెలూయా",
+                                "హల్లెలూయా హల్లెలూయా"
                             ]
                         },
                         {
                             "lines": [
-                                "కష్టము కలిగినా – నష్టము కలిగినా",
-                                "తండ్రీని స్తుతించెదను (2)"
+                                "ఎంతో గొప్ప రక్షణనిచ్చి",
+                                "వింతైన జనముగా మేము చేసెను (2)",
+                                "హల్లెలూయా హల్లెలూయా",
+                                "హల్లెలూయా హల్లెలూయా"
                             ]
                         },
                         {
                             "lines": [
-                                "పరిశుద్ధ రక్తముతో పాపము కడిగిన",
-                                "తండ్రీని స్తుతించెదను (2)"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "క్రీస్తుతో నన్ను ఫలింపజేసిన",
-                                "తండ్రీని స్తుతించెదను (2)"
+                                "రాత్రింబవళ్లు వేనోళ్లతోను",
+                                "స్తుతించుటయే బహుమంచిది (2)",
+                                "హల్లెలూయా హల్లెలూయా",
+                                "హల్లెలూయా హల్లెలూయా"
                             ]
                         }
                     ]
                 },
                 {
-                    "heading": "తనువు నా దిదిగో గై – కొనుమీ యో ప్రభువా నీ – పనికి బ్రతిష్టించుమీ",
-                    "initial": "తనువు",
-                    "choruslines": "1",
+                    "heading": "యెహోవ నా మొర లాలించెను",
+                    "initial": "యెహోవ",
+                    "choruslines": "2",
                     "slides": [
                         {
                             "lines": [
-                                "తనువు నా దిదిగో గై – కొనుమీ యో ప్రభువా నీ – పనికి బ్రతిష్టించుమీ",
-                                "దినములు క్షణములు – దీసికొని యవి నీదు",
-                                "వినతిన్ ప్రవహింప జే – యను శక్తి నీయుమీ"
+                                "యెహోవ నా మొర లాలించెను",
+                                "దన మహా దయను నను గనించెను",
+                                "అహర్నిశల దీనహీనుడగు నా",
+                                "దు హాయనెడు ధ్వని గ్రహించి మనిపెను"
                             ]
                         },
                         {
                             "lines": [
-                                "ఘనమైన నీ ప్రేమ – కారణంబున నీకై – పని చేయ జేతు లివిగో",
-                                "యనయంబు నీ విషయ – మై సొగసుగా జురుకు",
-                                "దనముతో పరుగెత్త – వినయ పాదము లివిగో"
+                                "పిశాచి గడిమి బడగొట్టెను",
+                                "దన వశాన నను నిలువ బెట్టెను",
+                                "ప్రశాంత మధుర సు విశేష వాక్ఫల",
+                                "నిశాంతమున జే ర్చి సేద దీర్చెను"
                             ]
                         },
                         {
                             "lines": [
-                                "స్వర మిదిగో కొనుమీ – వరరాజ నిను గూర్చి – నిరతమ్ము పాడనిమ్ము",
-                                "మరియు పెదవు లివిగో – మహనీయమైన నీ",
-                                "పరిశుద్ధ వార్తతో – పరి పూర్ణముగా నింపు"
+                                "మదావలము బోలు నా మదిన్",
+                                "దన ప్రదీప్త వాక్యం కూశా హతిన్",
+                                "యధేచ్చలన్నిటి గుదించి పాపపు",
+                                "మొదల్ తుదల్ నరి కి దరికి జేర్చెను"
                             ]
                         },
                         {
                             "lines": [
-                                "ఉన్న నా ప్రేమ నీ – సన్నిధానమున నే – నెన్నడు ధార వోయన్",
-                                "నన్ను నీ వానిగ – నాథా గైకొను మెపుడు",
-                                "చెన్నుగ నీ వశమై – స్థిర ముగ నుండెద"
+                                "అనీతి వస్త్ర మెడలించెను",
+                                "యే సునాథు రక్తమున ముంచెను",
+                                "వినూత్న యత్నమే ద నూని యెన్నడు",
+                                "గనన్ వినన్ బ్రే మ నాకు జూపెను"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "విలాపములకు జెవి నిచ్చెను",
+                                "శ్రమ కలాపములకు సెలవిచ్చెను",
+                                "శిలానగము పై కిలాగి నను సుఖ",
+                                "కళావళుల్ మన సులోన నిలిపెను"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "అగణ్య పాపియని త్రోయక",
+                                "న న్ను గూర్చి తన సుతుని దా చక",
+                                "తెగించి మృతి కొ ప్పగించి పాపపు",
+                                "నెగుల్ దిగుల్ సొగ సుగా నణంచెను"
                             ]
                         }
                     ]
                 },
                 {
-                    "heading": "దేవా నీ తలంపులు అమూల్యమైనవి నా యెడ",
-                    "initial": "దేవా",
-                    "choruslines": "3",
+                    "heading": "నీవుంటే నాకు చాలు యేసయ్యా",
+                    "initial": "నీవుంటే",
+                    "choruslines": "4",
                     "slides": [
                         {
                             "lines": [
-                                "దేవా నీ తలంపులు అమూల్యమైనవి నా యెడ",
-                                "నా యెడల నీ కరుణ",
-                                "సర్వ సదా నిలుచుచున్నది (2)"
+                                "నీవుంటే నాకు చాలు యేసయ్యా",
+                                "నీవెంటే నేను ఉంటానేసయ్యా (2)",
+                                "నీ మాట చాలయ్యా నీ చూపు చాలయ్యా",
+                                "నీ తోడు చాలయ్యా నీ నీడ చాలయ్యా (2)"
                             ]
                         },
                         {
                             "lines": [
-                                "స్తుతులర్పింతు ప్రభు నీకు నేడే",
-                                "స్తుతి పాడేను హృదయముతో (2)",
-                                "స్తుతించి వర్ణించి ఘనపరతున్ (2)",
-                                "నీవే నా రక్షకుడవని"
+                                "ఎన్ని బాధలున్ననూ ఇబ్బందులైననూ",
+                                "ఎంత కష్టమొచ్చినా నిష్టూరమైననూ (2)"
                             ]
                         },
                         {
                             "lines": [
-                                "మొదట నిన్ను ఎరుగనైతిని",
-                                "మొదటే నన్ను ఎరిగితివి (2)",
-                                "వెదుకలేదు ప్రభువా నేను (2)",
-                                "వెదకితివి ఈ పాపిని"
+                                "బ్రతుకు నావ పగిలినా కడలి పాలైననూ",
+                                "అలలు ముంచి వేసినా ఆశలు అనగారినా (2)"
                             ]
                         },
                         {
                             "lines": [
-                                "ఎట్లు మౌనముగా నుందు ప్రభు",
-                                "చెల్లింపక స్తోత్ర గీతము (2)",
-                                "కాలమంతా పాడుచుండెద (2)",
-                                "నీ ప్రేమ అపారమైనది"
+                                "ఆస్తులన్నీ పోయినా అనాథగా మిగిలినా",
+                                "ఆప్తులే విడనాడినా ఆరోగ్యం క్షీణించినా (2)"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "నీకు ఇలలో ఏదియు లేదు అసాధ్యము",
+                                "నీదు కృపతో నాకేమియు కాదిల సమానము (2)"
                             ]
                         }
                     ]
                 },
                 {
-                    "heading": "Blessed assurance, Jesus is mine!",
+                    "heading": "To God be the glory, great things He hath done,",
                     "initial": "",
                     "choruslines": "0",
                     "slides": [
                         {
                             "lines": [
-                                "Blessed assurance, Jesus is mine!",
-                                "Oh, what a foretaste of glory divine!",
-                                "Heir of salvation, purchase of God,",
-                                "Born of His Spirit, washed in His blood."
+                                "To God be the glory, great things He hath done,",
+                                "So loved He the world that He gave us His Son,",
+                                "Who yielded His life our redemption to win,",
+                                "And opened the life-gate that all may go in."
                             ]
                         },
                         {
                             "lines": [
-                                "This is my story, this is my song,",
-                                "Praising my Savior all the day long;",
-                                "This is my story, this is my song,",
-                                "Praising my Savior all the day long."
+                                "Praise the Lord, praise the Lord,",
+                                "Let the earth hear His voice;",
+                                "Praise the Lord, praise the Lord,",
+                                "Let the people rejoice;"
                             ]
                         },
                         {
                             "lines": [
-                                "Perfect submission, perfect delight,",
-                                "Visions of rapture now burst on my sight;",
-                                "Angels descending bring from above,",
-                                "Echoes of mercy, whispers of love."
+                                "Oh, come to the Father,",
+                                "through Jesus the Son,",
+                                "And give Him the glory;",
+                                "great things He hath done."
                             ]
                         },
                         {
                             "lines": [
-                                "This is my story, this is my song,",
-                                "Praising my Savior all the day long;",
-                                "This is my story, this is my song,",
-                                "Praising my Savior all the day long."
+                                "Oh, perfect redemption, the purchase of blood,",
+                                "To every believer the promise of God;",
+                                "The vilest offender who truly believes,",
+                                "That moment from Jesus a pardon receives."
                             ]
                         },
                         {
                             "lines": [
-                                "Perfect submission, all is at rest,",
-                                "I in my Savior am happy and blest;",
-                                "Watching and waiting, looking above,",
-                                "Filled with His goodness lost in His love."
+                                "Praise the Lord, praise the Lord,",
+                                "Let the earth hear His voice;",
+                                "Praise the Lord, praise the Lord,",
+                                "Let the people rejoice;"
                             ]
                         },
                         {
                             "lines": [
-                                "This is my story, this is my song,",
-                                "Praising my Savior all the day long;",
-                                "This is my story, this is my song,",
-                                "Praising my Savior all the day long."
+                                "Oh, come to the Father,",
+                                "through Jesus the Son,",
+                                "And give Him the glory;",
+                                "great things He hath done."
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "Great things He hath taught us,",
+                                "great things He hath done,",
+                                "And great our rejoicing through Jesus the Son;",
+                                "But purer, and higher, and greater will be",
+                                "Our wonder, our transport when Jesus we see."
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "Praise the Lord, praise the Lord,",
+                                "Let the earth hear His voice;",
+                                "Praise the Lord, praise the Lord,",
+                                "Let the people rejoice;"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "Oh, come to the Father,",
+                                "through Jesus the Son,",
+                                "And give Him the glory;",
+                                "great things He hath done."
                             ]
                         }
                     ]
@@ -233,7 +281,7 @@
         {
             "name": "Closing Prayer",
             "title": "Closing Prayer",
-            "subtitle": "Bro. Kiran"
+            "subtitle": "Bro. Pradeep"
         }
     ]
 }
