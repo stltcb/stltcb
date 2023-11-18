@@ -290,7 +290,7 @@
         return slide;
     }
 
-    function getChorusSlide(lines, header, chorusLines, nextSlide) {
+    function getChorusSlide(lines, header, chorusLines, skipLines, nextSlide) {
         const slide = getSlide();
 
         const br1 = document.createElement('br');
@@ -298,7 +298,7 @@
         slide.appendChild(br1);
         slide.appendChild(br2);
 
-        for (let i = 0; i < chorusLines; i++) {
+        for (let i = skipLines; i < chorusLines; i++) {
             var lineText = lines[i];
             if (lineText && lineText.indexOf('(') > 0) {
                 lineText = lineText.split('(')[0];
@@ -366,8 +366,14 @@
                         const nextSlide = (j < (slideLen-1)) ? content.slides[j+1] : undefined;
                         const linesSlide = getContentLinesSlide(slide.lines, (j===0)? '' : content.initial, nextSlide);
                         slides.push(linesSlide);
-                        if (j > 0 && content.choruslines && content.choruslines > 0) {
-                            const chorusSlide = getChorusSlide(content.slides[0].lines, content.heading, content.choruslines, nextSlide);
+                        const chLines = content.choruslines || '0';
+                        if (chLines === '0') {
+                            chLines = '0-0';
+                        }
+                        const repeatLines = parseInt(chLines.split('-')[0]);
+                        const skipLines = parseInt(chLines.split('-')[1]);
+                        if (j > 0 && chLines > 0) {
+                            const chorusSlide = getChorusSlide(content.slides[0].lines, content.heading, repeatLines, skipLines, nextSlide);
                             slides.push(chorusSlide);
                         }
                     }
