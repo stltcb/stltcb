@@ -366,12 +366,10 @@
                         const nextSlide = (j < (slideLen-1)) ? content.slides[j+1] : undefined;
                         const linesSlide = getContentLinesSlide(slide.lines, (j===0)? '' : content.initial, nextSlide);
                         slides.push(linesSlide);
-                        const chLines = content.choruslines || '0';
-                        if (chLines === '0') {
-                            chLines = '0-0';
-                        }
-                        const repeatLines = parseInt(chLines.split('-')[0]);
-                        const skipLines = parseInt(chLines.split('-')[1]);
+                        const chLines = content.choruslines || '0-0';
+                        const chla = chLines.split('-');
+                        const repeatLines = parseInt(chla[0] || 0);
+                        const skipLines = parseInt(chla[1] || 0);
                         if (j > 0 && chLines > 0) {
                             const chorusSlide = getChorusSlide(content.slides[0].lines, content.heading, repeatLines, skipLines, nextSlide);
                             slides.push(chorusSlide);
