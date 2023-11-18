@@ -1,310 +1,371 @@
 {
-    "date": "11/11/2023",
-    "title": "TCB Family Worship",
-    "subtitle": "Nov 11th 2023",
-    "background": "https://i.swncdn.com/media/800w/via/8133-sunburst-through-lilac-clouds-in-sky-rising-c.webp",
-    "sections": [
+  "date": "11/18/2023",
+  "title": "TCB Family Worship",
+  "subtitle": "Thanksgiving Fellowship",
+  "background": "https://i.swncdn.com/media/800w/via/8133-sunburst-through-lilac-clouds-in-sky-rising-c.webp",
+  "sections": [
+    {
+      "name": "Starting Prayer",
+      "title": "Starting Prayer",
+      "subtitle": "Bro. Uday"
+    },
+    {
+      "name": "Songs",
+      "title": "Songs",
+      "subtitle": "Let's Praise Him",
+      "content": [
         {
-            "name": "Starting Prayer",
-            "title": "Starting Prayer",
-            "subtitle": "Bro. Dinesh"
+          "heading": "నీవు చేసిన ఉపకారములకు",
+          "initial": "",
+          "choruslines": "0",
+          "slides": [
+            {
+              "lines": [
+                "నీవు చేసిన ఉపకారములకు",
+                "నేనేమి చెల్లింతును (2)",
+                "ఏడాది దూడెలనా… వేలాది పోట్టేల్లనా (2)"
+              ]
+            },
+            {
+              "lines": [
+                "వేలాది నదులంత విస్తార తైలము",
+                "నీకిచ్చినా చాలునా (2)",
+                "గర్భ ఫలమైన నా జేష్ట్య పుత్రుని",
+                "నీకిచ్చినా చాలునా (2)"
+              ]
+            },
+            {
+              "lines": [
+                "ఏడాది దూడెలనా… వేలాది పోట్టేల్లనా (2)"
+              ]
+            },
+            {
+              "lines": [
+                "మరణపాత్రుడనైయున్న నాకై",
+                "మరణించితివ సిలువలో&nbsp;(2)",
+                "కరుణ చూపి నీ జీవ మార్గాన",
+                "నడిపించుమో యేసయ్యా (2)"
+              ]
+            },
+            {
+              "lines": [
+                "ఏడాది దూడెలనా… వేలాది పోట్టేల్లనా (2)"
+              ]
+            },
+            {
+              "lines": [
+                "విరిగి నలిగిన బలి యాగముగను",
+                "నా హృదయ మర్పింతును (2)",
+                "రక్షణ పాత్రను చేబూని నిత్యము",
+                "నిను వెంబడించెదను (2)"
+              ]
+            },
+            {
+              "lines": [
+                "ఏడాది దూడెలనా… వేలాది పోట్టేల్లనా (2)"
+              ]
+            },
+            {
+              "lines": [
+                "ఈ గొప్ప రక్షణ నాకిచ్చినందుకు",
+                "నీకేమి చెల్లింతును&nbsp;(2)",
+                "కపట నటనాలు లేనట్టి హృదయాన్ని",
+                "అర్పించినా చాలునా (2)"
+              ]
+            },
+            {
+              "lines": [
+                "ఏడాది దూడెలనా… వేలాది పోట్టేల్లనా (2)"
+              ]
+            },
+            {
+              "lines": [
+                "నీవు చేసిన ఉపకారములకు",
+                "నేనేమి చెల్లింతును (2)",
+                "ఏడాది దూడెలనా… వేలాది పోట్టేల్లనా (2)"
+              ]
+            }
+          ]
         },
         {
-            "name": "Songs",
-            "title": "Songs",
-            "subtitle": "Praise Him",
-            "content": [
-                {
-                    "heading": "ఆలయంలో ప్రవేశించండి అందరు",
-                    "initial": "ఆలయంలో",
-                    "choruslines": "2",
-                    "slides": [
-                        {
-                            "lines": [
-                                "ఆలయంలో ప్రవేశించండి అందరు",
-                                "స్వాగతం సుస్వాగతం యేసు నామంలో",
-                                "మీ బ్రతుకులో పాపమా కలతలా",
-                                "మీ హృదయంలో బాధలా కన్నీరా",
-                                "మీ కన్నీరంతా తుడిచి వేయు రాజు యేసు కోసం"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "దీక్ష స్వభావంతో ధ్యాన స్వభావమై",
-                                "వెదికే వారికంతా కనబడు దీపము",
-                                "యేసు రాజు మాటలే వినుట ధన్యము",
-                                "వినుట వలన విశ్వాసం అధికమధికమై",
-                                "ఆత్మలో దాహము తీరెను రారండి",
-                                "ఆనందమానందం హల్లెలూయా"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "ప్రభు యేసు మాటలే పెదవిలో మాటలై",
-                                "జీవ వృక్షంబుగా ఫలియించాలని",
-                                "పెదవితో పలికెదం మంచి మాటలే",
-                                "హృదయమంతా యేసు ప్రభుని ప్రేమ మాటలై",
-                                "నింపెదం నిండెదం కోరెదం పొందెదం",
-                                "ఆనందమానందం హల్లెలూయా"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "heading": "ఇదిగో దేవా నా జీవితం",
-                    "initial": "ఇదిగో",
-                    "choruslines": "2",
-                    "slides": [
-                        {
-                            "lines": [
-                                "ఇదిగో దేవా నా జీవితం",
-                                "ఆపాదమస్తకం నీకంకితం (2)",
-                                "శరణం నీ చరణం (4)"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "పలుమార్లు వైదొలగినాను - పరలోక దర్శనమునుండి",
-                                "విలువైన నీ దివ్య పిలుపుకు - నే తగినట్లు జీవించనైతి (2)",
-                                "అయినా నీ ప్రేమతో - నన్ను దరిచేర్చినావు",
-                                "అందుకే గైకొనుము దేవా - ఈ నా శేష జీవితం"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "నీ పాదముల చెంత చేరి - నీ చిత్తంబు నేనెరుగ నేర్పు",
-                                "నీ హృదయ భారంబు నొసగి - ప్రార్థించి పనిచేయనిమ్ము (2)",
-                                "ఆగిపోక సాగిపోవు - ప్రియసుతునిగా పనిచేయనిమ్ము",
-                                "ప్రతి చోట నీ సాక్షిగా - ప్రభువా నన్నుండనిమ్ము"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "విస్తార పంట పొలము నుండి - కష్టించి పని చేయ నేర్పు",
-                                "కన్నీటితో విత్తు మనసు - కలకాలం మరి నాకు నొసగు (2)",
-                                "క్షేమ క్షామ కాలమైనా - నిన్ను ఘనపరచు బతుకునిమ్మయ్యా",
-                                "నశియించే ఆత్మలన్నీ - దరి చేర్చు కృపనిమ్మయ్యా"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "heading": "ఎంత మంచి దేవుడవయ్యా",
-                    "initial": "ఎంత",
-                    "choruslines": "4",
-                    "slides": [
-                        {
-                            "lines": [
-                                "ఎంత మంచి దేవుడవయ్యా",
-                                "ఎంత మంచి దేవుడవేసయ్యా",
-                                "చింతలన్ని తీరేనయ్యా నిను చేరగా",
-                                "ఎంత మంచి దేవుడవేసయ్యా (2)"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "ఘోరపాపినైన నేనూ – దూరంగా పారిపోగా (2)",
-                                "నీ ప్రేమతో నను క్షమియించి",
-                                "నను హత్తుకొన్నావయ్యా (2)"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "నాకున్న వారందరూ – నను విడచిపోయిననూ (2)",
-                                "ఎన్నెన్నో ఇబ్బందులకు గురి చేసిననూ",
-                                "నను నీవు విడువలేదయ్యా (2)"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "నీవు లేకుండ నేనూ – ఈ లోకంలో బ్రతుకలేనయ్యా (2)",
-                                "నీతో కూడా ఈ లోకం నుండీ",
-                                "పరలోకం చేరెదనేసయ్యా (2)"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "heading": "నడిపించు నా నావా",
-                    "initial": "నడిపించు",
-                    "choruslines": "1",
-                    "slides": [
-                        {
-                            "lines": [
-                                "నడిపించు నా నావా",
-                                "నడి సంద్రమున దేవా",
-                                "నవ జీవన మార్గమున",
-                                "నా జన్మ తరియింప"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "నా జీవిత తీరమున నా అపజయ భారమున",
-                                "నలిగిన నా హృదయమును నడిపించుము లోతునకు",
-                                "నా యాత్మ విరబూయ నా దీక్ష ఫలియింప",
-                                "నా నావలో కాలిడుము నా సేవ చేకొనుము"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "రాత్రంతయు శ్రమపడినా రాలేదు ప్రభు జయము",
-                                "రహదారులు వెదకిననూ రాదాయెను ప్రతిఫలము",
-                                "రక్షించు నీ సిలువ రమణీయ లోతులలో",
-                                "రతణాలను వెదకుటలో రాజిల్లు నా పడవ"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "ఆత్మార్పణ చేయకయే ఆశించితి నీ చెలిమి",
-                                "అహమును ప్రేమించుచునే అరసితి ప్రభు నీ కలిమి",
-                                "ఆశ నిరాశాయే ఆవేదనెదురాయే",
-                                "ఆధ్యాత్మిక లేమిగని అల్లాడే నావలలు"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "ప్రభు మార్గము విడచితిని ప్రార్థించుట మానితిని",
-                                "ప్రభు వాక్యము వదలితిని పరమార్థము మరచితిని",
-                                "ప్రపంచ నటనలలో ప్రావీణ్యమును బొంది",
-                                "ఫలహీనుడనై యిపుడు పాటింతు నీ మాట"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "లోటైన జలములలో లోతున వినబడు స్వరమా",
-                                "లోబడుటను నేర్పించి లోపంబులు సవరించి",
-                                "లోనున్న ఈవులలో లోతైన నా బ్రతుకు",
-                                "లోపించని అర్పనగా లోకేష చేయుమయా"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "ప్రభు యేసుని శిష్యుడనై ప్రభు ప్రేమలో పాదుకొని",
-                                "ప్రకటింతును లోకములో పరిశుద్ధుని ప్రేమ కథ",
-                                "పరమాత్మ ప్రోక్షణతో పరిపూర్ణ సమర్పణతో",
-                                "ప్రాణంబును ప్రభు కొరకు పానార్పణము చేతు"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "heading": "Oh Lord, my God",
-                    "initial": "",
-                    "choruslines": "0",
-                    "slides": [
-                        {
-                            "lines": [
-                                "Oh Lord, my God",
-                                "When I, in awesome wonder",
-                                "Consider all the worlds Thy hands have made",
-                                "I see the stars, I hear the rolling thunder",
-                                "Thy power throughout the universe displayed"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "Then sings my soul, my Savior God to Thee",
-                                "How great Thou art, how great Thou art",
-                                "Then sings my soul, my Savior God to Thee",
-                                "How great Thou art, how great Thou art"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "And when I think that God, His Son not sparing",
-                                "Sent Him to die, I scarce can take it in",
-                                "That on the cross, my burden gladly bearing",
-                                "He bled and died to take away my sin"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "Then sings my soul, my Savior God to Thee",
-                                "How great Thou art, how great Thou art",
-                                "Then sings my soul, my Savior God to Thee",
-                                "How great Thou art, how great Thou art"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "When Christ shall come, with shout of acclamation",
-                                "And take me home, what joy shall fill my heart",
-                                "Then I shall bow, in humble adoration",
-                                "And then proclaim, my God, how great Thou art"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "Then sings my soul, my Savior God to Thee",
-                                "How great Thou art, how great Thou art",
-                                "Then sings my soul, my Savior God to Thee",
-                                "How great Thou art, how great Thou art"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "heading": "నీవు చేసిన ఉపకారములకు",
-                    "initial": "నీవు చేసిన",
-                    "choruslines": "1-2",
-                    "slides": [
-                        {
-                            "lines": [
-                                "నీవు చేసిన ఉపకారములకు",
-                                "నేనేమి చెల్లింతును (2)",
-                                "ఏడాది దూడెలనా… వేలాది పోట్టేల్లనా (2)"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "వేలాది నదులంత విస్తార తైలము",
-                                "నీకిచ్చినా చాలునా (2)",
-                                "గర్భ ఫలమైన నా జేష్ట్య పుత్రుని",
-                                "నీకిచ్చినా చాలునా (2)"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "మరణపాత్రుడనైయున్న నాకై",
-                                "మరణించితివ సిలువలో&nbsp;(2)",
-                                "కరుణ చూపి నీ జీవ మార్గాన",
-                                "నడిపించుమో యేసయ్యా (2)"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "విరిగి నలిగిన బలి యాగముగను",
-                                "నా హృదయ మర్పింతును (2)",
-                                "రక్షణ పాత్రను చేబూని నిత్యము",
-                                "నిను వెంబడించెదను (2)"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "ఈ గొప్ప రక్షణ నాకిచ్చినందుకు",
-                                "నీకేమి చెల్లింతును&nbsp;(2)",
-                                "కపట నటనాలు లేనట్టి హృదయాన్ని",
-                                "అర్పించినా చాలునా (2)"
-                            ]
-                        }
-                    ]
-                }
-            ]
+          "heading": "గడచిన కాలము కృపలో మమ్మ",
+          "initial": "",
+          "choruslines": "0",
+          "slides": [
+            {
+              "lines": [
+                "హల్లెలూయా స్తోత్రం యేసయ్యా (2)",
+                "గడచిన కాలము కృపలో మమ్ము",
+                "దాచిన దేవా నీకే స్తోత్రము",
+                "పగలూ రేయి కనుపాపవలె",
+                "కాచిన దేవా నీకే స్తోత్రము (2)",
+                "మము దాచిన దేవా నీకే స్తోత్రము",
+                "కాపాడిన దేవా నీకే స్తోత్రము (2)"
+              ]
+            },
+            {
+              "lines": [
+                "కలత చెందిన కష్టకాలమున",
+                "కన్న తండ్రివై నను ఆదరించిన",
+                "కలుషము నాలో కానవచ్చినా",
+                "కాదనక నను కరుణించిన (2)",
+                "కరుణించిన దేవా నీకే స్తోత్రము",
+                "కాపాడిన దేవా నీకే స్తోత్రము (2)"
+              ]
+            },
+            {
+              "lines": [
+                "గడచిన కాలము కృపలో మమ్ము",
+                "దాచిన దేవా నీకే స్తోత్రము",
+                "పగలూ రేయి కనుపాపవలె",
+                "కాచిన దేవా నీకే స్తోత్రము (2)",
+                "మము దాచిన దేవా నీకే స్తోత్రము",
+                "కాపాడిన దేవా నీకే స్తోత్రము (2)"
+              ]
+            },
+            {
+              "lines": [
+                "లోపములెన్నో దాగి ఉన్నను",
+                "ధాతృత్వముతో నను నడిపించినా",
+                "అవిధేయతలే ఆవరించినా",
+                "దీవెనలెన్నో దయచేసిన (2)",
+                "దీవించిన దేవా నీకే స్తోత్రము",
+                "దయచూపిన తండ్రి నీకే స్తోత్రము (2)"
+              ]
+            },
+            {
+              "lines": [
+                "గడచిన కాలము కృపలో మమ్ము",
+                "దాచిన దేవా నీకే స్తోత్రము",
+                "పగలూ రేయి కనుపాపవలె",
+                "కాచిన దేవా నీకే స్తోత్రము (2)",
+                "మము దాచిన దేవా నీకే స్తోత్రము",
+                "కాపాడిన దేవా నీకే స్తోత్రము (2)"
+              ]
+            }
+          ]
         },
         {
-            "name": "Sermon",
-            "title": "Sermon",
-            "subtitle": "Bro. Srinivas"
+          "heading": "భక్తులారా స్మరియించెదము",
+          "initial": "భక్తులారా",
+          "choruslines": "2",
+          "slides": [
+            {
+              "lines": [
+                "భక్తులారా స్మరియించెదము",
+                "ప్రభు చేసిన మేలులన్నిటిని (2)",
+                "అడిగి ఊహించు వాటి కన్నా మరి (2)",
+                "సర్వము చక్కగ చేసె (2)"
+              ]
+            },
+            {
+              "lines": [
+                "గాలి తుఫానులను గద్దించి",
+                "బాధలను తొలగించే (2)",
+                "శ్రమలలో మనకు తోడైయుండి",
+                "శ్రమలలో మనకు తోడైయుండి",
+                "బయలు పరచె తన జయమున్ (2)"
+              ]
+            },
+            {
+              "lines": [
+                "ఈ భువియందు జీవించు కాలం",
+                "బ్రతికెదము ప్రభు కొరకే (2)",
+                "మనమాయనకర్పించుకొనెదము",
+                "మనమాయనకర్పించుకొనెదము",
+                "ఆయన ఆశయమదియే (2)"
+              ]
+            },
+            {
+              "lines": [
+                "కొంచెము కాలమే మిగిలియున్నది",
+                "ప్రభువును సంధించుటకై (2)",
+                "గనుక మనము నడచుకొనెదము",
+                "గనుక మనము నడచుకొనెదము",
+                "ప్రభు మార్గముల యందు (2)"
+              ]
+            }
+          ]
         },
         {
-            "name": "Announcenments",
-            "title": "Announcenments",
-            "subtitle": "Praise/Prayer Points"
+          "heading": "వందనంబొనర్తుమో ప్రభో ప్రభో",
+          "initial": "వందనం",
+          "choruslines": "4",
+          "slides": [
+            {
+              "lines": [
+                "వందనంబొనర్తుమో ప్రభో ప్రభో",
+                "వందనంబొనర్తుమో ప్రభో ప్రభో",
+                "వందనంబు తండ్రి తనయ శుద్ధాత్ముడా",
+                "వందనంబు లందుకో ప్రభో"
+              ]
+            },
+            {
+              "lines": [
+                "ఇన్ని నాళ్ళు ధరను మమ్ము బ్రోచియు",
+                "గన్న తండ్రి మించి ఎపుడు గాచియు",
+                "ఎన్నలేని దీవెన లిడు నన్న యేసువా",
+                "యన్ని రెట్లు స్తోత్రములివిగో"
+              ]
+            },
+            {
+              "lines": [
+                "దేవ మాదు కాలుసేతు లెల్లను",
+                "సేవకాలి తనువు దినములన్నియు",
+                "నీ వొసంగు వెండి పసిడి జ్ఞానమంత నీ",
+                "సేవకై యంగీకరించుమా"
+              ]
+            },
+            {
+              "lines": [
+                "కోతకొరకు దాసజనము నంపుము",
+                "ఈ తరి మా లోటుపాట్లు దీర్చుము",
+                "పాతకంబు లెల్ల మాపి భీతి బాపుము",
+                "ఖ్యాతి నొందు నీతి సూర్యుడా"
+              ]
+            },
+            {
+              "lines": [
+                "మా సభలను పెద్దజేసి పెంచుము",
+                "నీ సువార్త జెప్ప శక్తి నీయుము",
+                "మోసపుచ్చు నందకార మంత ద్రోయుము",
+                "యేసు కృపన్ గుమ్మరించుము"
+              ]
+            }
+          ]
         },
         {
-            "name": "Closing Prayer",
-            "title": "Closing Prayer",
-            "subtitle": "Bro. Kiran"
+          "heading": "లెక్కించలేని స్తోత్రముల్",
+          "initial": "లెక్కించలేని",
+          "choruslines": "3",
+          "slides": [
+            {
+              "lines": [
+                "లెక్కించలేని స్తోత్రముల్",
+                "దేవా ఎల్లప్పుడూ నే పాడెదన్",
+                "దేవా ఎల్లప్పుడూ నే పాడెదన్ (2)",
+                "ఇంత వరకు నా బ్రతుకులో&nbsp;(2)",
+                "నువ్వు చేసిన మేళ్ళకై"
+              ]
+            },
+            {
+              "lines": [
+                "ఆకాశ మహాకాశముల్",
+                "వాటియందున్న సర్వంబును (2)",
+                "భూమిలో కనబడునవన్ని&nbsp;(2)",
+                "ప్రభువా నిన్నే కీర్తించున్"
+              ]
+            },
+            {
+              "lines": [
+                "అడవిలో నివసించువన్ని",
+                "సుడిగాలియు మంచును (2)",
+                "భూమిపైనున్నవన్ని&nbsp;(2)",
+                "దేవా నిన్నే పొగడును"
+              ]
+            },
+            {
+              "lines": [
+                "నీటిలో నివసించు ప్రాణుల్",
+                "ఈ భువిలోన జీవ రాసులు (2)",
+                "ఆకాశమున ఎగురునవన్ని (2)",
+                "ప్రభువా నిన్నే కీర్తించున్"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Count your blessings; Name them one by one.",
+          "initial": "",
+          "choruslines": "0",
+          "slides": [
+            {
+              "lines": [
+                "When upon life’s billows you are tempest-tossed,",
+                "When you are discouraged, thinking all is lost,",
+                "Count your many blessings; name them one by one,",
+                "And it will surprise you what the Lord has done."
+              ]
+            },
+            {
+              "lines": [
+                "Count your blessings; Name them one by one.",
+                "Count your blessings; See what God hath done.",
+                "Count your blessings; Name them one by one.",
+                "Count your many blessings; See what God hath done."
+              ]
+            },
+            {
+              "lines": [
+                "Are you ever burdened with a load of care?",
+                "Does the cross seem heavy you are called to bear?",
+                "Count your many blessings; ev’ry doubt will fly,",
+                "And you will be singing as the days go by."
+              ]
+            },
+            {
+              "lines": [
+                "Count your blessings; Name them one by one.",
+                "Count your blessings; See what God hath done.",
+                "Count your blessings; Name them one by one.",
+                "Count your many blessings; See what God hath done."
+              ]
+            },
+            {
+              "lines": [
+                "When you look at others with their lands and gold,",
+                "Think that Christ has promised you his wealth untold.",
+                "Count your many blessings; money cannot buy",
+                "Your reward in heaven nor your home on high."
+              ]
+            },
+            {
+              "lines": [
+                "Count your blessings; Name them one by one.",
+                "Count your blessings; See what God hath done.",
+                "Count your blessings; Name them one by one.",
+                "Count your many blessings; See what God hath done."
+              ]
+            },
+            {
+              "lines": [
+                "So amid the conflict, whether great or small,",
+                "Do not be discouraged; God is over all.",
+                "Count your many blessings; angels will attend,",
+                "Help and comfort give you to your journey’s end."
+              ]
+            },
+            {
+              "lines": [
+                "Count your blessings; Name them one by one.",
+                "Count your blessings; See what God hath done.",
+                "Count your blessings; Name them one by one.",
+                "Count your many blessings; See what God hath done."
+              ]
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "name": "Testimonies",
+      "title": "Thanksgiving",
+      "subtitle": "All of Us"
+    },
+    {
+      "name": "Brief Sermon",
+      "title": "Sermon",
+      "subtitle": "Bro. Srinivas"
+    },
+    {
+      "name": "Announcenments",
+      "title": "Announcenments",
+      "subtitle": "Praise/Prayer Points"
+    },
+    {
+      "name": "Closing Prayer",
+      "title": "Closing Prayer",
+      "subtitle": "Bro. Kiran"
+    }
+  ]
 }
