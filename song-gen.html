@@ -33,12 +33,12 @@
       const elementId = document.getElementById('elementId').value;
 
       try {
-        const response = await fetch(`/scrape?url=${encodeURIComponent(url)}&elementId='song'`);
+        const response = await fetch(`https://mobile.anilsweb.world/scrape?url=${encodeURIComponent(url)}&elementId='song'`);
         const data = await response.text();
 
-        document.getElementById('result').innerText = data;
+        document.getElementById('lyrics').innerText = data;
       } catch (error) {
-        document.getElementById('result').innerText = 'Error: ' + error;
+        document.getElementById('lyrics').innerText = 'Error: ' + error;
       }
     }
     async function gelerateSlide() {
