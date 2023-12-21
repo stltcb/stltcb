@@ -26,6 +26,32 @@
         return JSON.parse(data);
     }
 
+    function getDayWithSuffix(day) {
+      var suffix = 'th';
+      switch(day) {
+        case 1:
+        case 21:
+        case 31: suffix = 'st';
+          break;
+        case 2:
+        case 22: suffix = 'nd';
+         break;
+        case 3:
+        case 23: suffix = 'rd';
+          break;
+      }
+      return `${day}${suffix}`
+    }
+
+    function getLongDate(date) {
+      var day = date.getDate();
+      var month = date.getMonth();
+      var year = date.getFullYear();
+      const months = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+      return `${getDayWithSuffix(day)} ${months[month]} ${year}`;
+    }
+
     function hideAll() {
         const slides = document.getElementsByClassName('slide');
         for(let i = 0; i<slides.length; i++) {
