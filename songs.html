@@ -56,15 +56,6 @@
       return `${day}${suffix}`
     }
 
-    function getLongDate(date) {
-      var day = date.getDate();
-      var month = date.getMonth();
-      var year = date.getFullYear();
-      const months = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sep", "Oct", "Nov", "Dec"];
-
-      return `${getDayWithSuffix(day)} ${months[month]} ${year}`;
-    }
-
     var prog = {
       date: currentDate.toLocaleDateString('en-US'),
       title: "TCB Family Worship",
