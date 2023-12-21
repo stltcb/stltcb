@@ -6,6 +6,23 @@
         return xmlHttpReq.responseText;
     }
 
+    function getDayWithSuffix(day) {
+      var suffix = 'th';
+      switch(day) {
+        case 1:
+        case 21:
+        case 31: suffix = 'st';
+          break;
+        case 2:
+        case 22: suffix = 'nd';
+         break;
+        case 3:
+        case 23: suffix = 'rd';
+          break;
+      }
+      return `${day}${suffix}`
+    }
+
     function getLongDate(date) {
       var day = date.getDate();
       var month = date.getMonth();
