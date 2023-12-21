@@ -217,15 +217,21 @@ const data = {
       alert('1234');
   }
 
-  async function getLyrics() {
+  function getLyrics() {
     const songUrl = document.getElementById('songUrl').value;
     const songLyrics = document.getElementById('songLyrics');
 
       try {
-        const response = await fetch(`https://mobile.anilsweb.world/scrape?url=${encodeURIComponent(songUrl)}&elementId='song'`, { mode: 'no-cors' });
-        const data = await response.text();
-
-        document.getElementById('songLyrics').value = data;
+        const response = fetch(`https://mobile.anilsweb.world/scrape?url=${encodeURIComponent(songUrl)}&elementId='song'`, 
+                            { mode: 'no-cors' })
+                              .then(response => response.text())
+                              .then(data => { 
+                                  document.getElementById('songLyrics').value = data;
+                                })
+                              .catch(error => {
+                                  document.getElementById('songLyrics').value = 'Error: ' + error;
+                              });
+        
       } catch (error) {
         document.getElementById('songLyrics').value = 'Error: ' + error;
       }
