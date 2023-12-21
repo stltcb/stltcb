@@ -38,8 +38,25 @@
 <script>
     var pageNumber = 0;
     var pageLength = 0;
+    var currentDate = new Date(); //use your date here
+     // "en-US" gives date in US Format - mm/dd/yy
+    var prog = {
+      date: currentDate.toLocaleDateString('en-US');,
+      title: "TCB Family Worship",
+      subtitle: "9th Dec 2023",
+      background: "https://i.swncdn.com/media/800w/via/8133-sunburst-through-lilac-clouds-in-sky-rising-c.webp",
+      sections: [
+       {
+          name: "Songs",
+          title: "Songs",
+          subtitle: "Let's Praise Him",
+          content: [
+          ]
+       }
+      ]
+    };
 
-    addProgram();
+    addProgram(prog);
     pageLength = document.getElementsByClassName('slide').length;
     hideAll();
     showSlide(pageNumber);
