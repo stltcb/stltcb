@@ -225,9 +225,9 @@ const data = {
         const response = await fetch(`https://mobile.anilsweb.world/scrape?url=${encodeURIComponent(songUrl)}&elementId='song'`, { mode: 'no-cors' });
         const data = await response.text();
 
-        songLyrics.value = data;
+        document.getElementById('songLyrics').value = data;
       } catch (error) {
-        songLyrics.value = 'Error: ' + error;
+        document.getElementById('songLyrics').value = 'Error: ' + error;
       }
   }
 
