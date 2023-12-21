@@ -75,7 +75,7 @@
             font-size: 3em;
             margin-left: 1em;
             margin-bottom: 0;
-            vertical-align: top;
+            margin-top: 0;
         }
 
         .list {
