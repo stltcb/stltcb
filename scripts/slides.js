@@ -6,6 +6,15 @@
         return xmlHttpReq.responseText;
     }
 
+    function getLongDate(date) {
+      var day = date.getDate();
+      var month = date.getMonth();
+      var year = date.getFullYear();
+      const months = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+      return `${getDayWithSuffix(day)} ${months[month]} ${year}`;
+    }
+
     function getProgram() {
         // var data = httpGet('https://anilkkt.github.io/data/program.json');
         var data = httpGet('https://stltcb.github.io/data/slides.json');
