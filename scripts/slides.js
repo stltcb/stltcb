@@ -403,6 +403,12 @@
             obj = getProgram();
         }
 
+        if (obj.date && obj.date === '') {
+            var currentDate = new Date();
+            obj.date = currentDate.toLocaleDateString('en-US');
+            obj.subtitle = getLongDate(currentDate);
+        }
+        
         const dateLabel = document.getElementById('date');
         dateLabel.innerText = `Date: ${obj.date}`;
 
