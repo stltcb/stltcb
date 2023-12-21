@@ -241,9 +241,9 @@ const data = {
     const songLyrics = document.getElementById('songLyrics');      
     const request = `https://mobile.anilsweb.world/scrape?url=${encodeURIComponent(songUrl)}&elementId=song`;
 
-    fetch(request, { mode: 'no-cors' }).then((response) => {
+    fetch(request, { mode: 'no-cors' }).then(async (response) => {
         console.log(response);
-        response.text().then((data) => {
+        response.text().then(async (data) => {
             console.log(data);
         });
     });
