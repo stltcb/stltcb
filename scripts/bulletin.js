@@ -390,6 +390,12 @@
             obj = getProgram();
         }
 
+        if (obj.date && obj.date === '') {
+            var currentDate = new Date();
+            obj.date = currentDate.toLocaleDateString('en-US');
+            obj.subtitle = getLongDate(currentDate);
+        }
+      
         const body = document.getElementById('presentation');
         const rootSlide = getRootSlide(obj.title, obj.subtitle);
         const rootSection = getSection([rootSlide], '');
