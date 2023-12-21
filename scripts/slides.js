@@ -423,8 +423,10 @@
         if (obj.date && obj.date === '') {
             var currentDate = new Date();
             obj.date = currentDate.toLocaleDateString('en-US');
-            obj.subtitle = getLongDate(currentDate);
         }
+        if (obj.subtitle && obj.subtitle === '') {
+            obj.subtitle = getLongDate(new Date());
+        }        
         
         const dateLabel = document.getElementById('date');
         dateLabel.innerText = `Date: ${obj.date}`;
