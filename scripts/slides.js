@@ -207,8 +207,15 @@
         title.classList.add('list-title');
         title.innerText = subTitle;
 
-        const list = document.createElement('ul');
-        list.classList.add('list');
+        const table = document.createElement('table');
+        const tableRow = document.createElement('tr');
+        const sectionCol = document.createElement('td');
+        sectionCol.classList.add('vertical-top');
+        const songsCol = document.createElement('td');
+        songsCol.classList.add('vertical-top');
+
+        const sectionList = document.createElement('ul');
+        sectionList.classList.add('list');
 
         objSections.forEach(section => {
             const listItem = document.createElement('li');
@@ -218,15 +225,24 @@
             else {
                 listItem.innerHTML = `${section.title} (<i>${section.subtitle}</i>)`;
             }
-            list.appendChild(listItem);
+            sectionList.appendChild(listItem);
             if (section.content) {
                 const contentSummary = getSubSummary(section.content);
-                list.appendChild(contentSummary);
+                const tt = document.createElement('p');
+                // tt.classList.add('list-title');
+                tt.innerText = section.title;
+                songsCol.appendChild(tt);
+                songsCol.appendChild(contentSummary);
             }
         });
 
-        slide.appendChild(title);
-        slide.appendChild(list);
+
+        sectionCol.appendChild(title);
+        sectionCol.appendChild(sectionList);
+        tableRow.appendChild(sectionCol);
+        tableRow.appendChild(songsCol);
+        table.appendChild(tableRow);
+        slide.appendChild(table);
 
         return slide;
     }
@@ -238,6 +254,7 @@
 
         content.forEach(element => {
             const listItem = document.createElement('li');
+            listItem.classList.add('list-small');
             listItem.innerText = element.heading;
             list.appendChild(listItem);
         });
