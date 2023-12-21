@@ -426,17 +426,17 @@
         }
         if (obj.subtitle && obj.subtitle === '') {
             obj.subtitle = getLongDate(new Date());
-        }        
+        }
+        if (obj.background && obj.background === '') {
+            obj.background = 'https://i.swncdn.com/media/800w/via/8133-sunburst-through-lilac-clouds-in-sky-rising-c.webp';
+        }         
         
         const dateLabel = document.getElementById('date');
         dateLabel.innerText = `Date: ${obj.date}`;
 
         const body = document.getElementById('presentation');
         const rootSlide = getRootSlide(obj.title, obj.subtitle);
-        const rootSection = getSection([rootSlide], '');
-
-        obj.background = 'https://www.w3schools.com/howto/img_parallax.jpg';
-        obj.background = 'https://i.swncdn.com/media/800w/via/8133-sunburst-through-lilac-clouds-in-sky-rising-c.webp';
+        const rootSection = getSection([rootSlide], '');      
 
         const backGround = document.getElementById('backGround');
         if (obj.background) {
