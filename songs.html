@@ -81,6 +81,21 @@
       ]
     };
 
+       function getLocalSongs() {
+          var arr = [];
+          for (var i = 0; i < localStorage.length; i++){
+              const localKey = localStorage.key(i);
+              if (localKey.substring(0,9) == 'tcb-song-') {
+                const item = localStorage.getItem(localKey);
+                arr.push(JSON.parse(item));
+              }
+          }
+
+          return arr;
+        }
+
+      prog.sections.content = getLocalSongs();
+    
     addProgram(prog);
     pageLength = document.getElementsByClassName('slide').length;
     hideAll();
