@@ -217,7 +217,7 @@ const data = {
       alert('1234');
   }
 
-  async function getLyrics() {
+  async function getLyrics2() {
     const songUrl = document.getElementById('songUrl').value;
     const songLyrics = document.getElementById('songLyrics');
 
@@ -236,18 +236,21 @@ const data = {
       }
   }
 
-  async function getLyrics2() {
+  async function getLyrics() {
     const songUrl = document.getElementById('songUrl').value;
     const songLyrics = document.getElementById('songLyrics');      
     const request = `https://mobile.anilsweb.world/scrape?url=${encodeURIComponent(songUrl)}&elementId=song`;
-
-    fetch(request, { mode: 'cors' }).then(async (response) => {
-        console.log(response);
-        response.text().then(async (data) => {
-            console.log(data);
+    try {
+        fetch(request, { mode: 'cors' }).then(async (response) => {
+            console.log(response);
+            response.text().then(async (data) => {
+                document.getElementById('songLyrics').value = data;
+            });
         });
-    });
-  }    
+    } catch (error) {
+        document.getElementById('songLyrics').value = 'Error: ' + error;
+      }
+  }   
     
   function clearData() {
     saveData({});
