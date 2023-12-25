@@ -58,6 +58,43 @@
           ]
         },
         {
+          "heading": "Joy to the world, the Lord is come",
+          "initial": "",
+          "choruslines": "0",
+          "slides": [
+            {
+              "lines": [
+                "Joy to the world, the Lord is come",
+                "Let Earth receive her King",
+                "Let every heart prepare Him room",
+                "And Heaven and nature sing",
+                "And Heaven and nature sing",
+                "And Heaven, and Heaven, and nature sing"
+              ]
+            },
+            {
+              "lines": [
+                "Joy to the Earth, the Savior reigns",
+                "Let all their songs employ",
+                "While fields and floods, rocks, hills, and plains",
+                "Repeat the sounding joy",
+                "Repeat the sounding joy",
+                "Repeat, repeat the sounding joy"
+              ]
+            },
+            {
+              "lines": [
+                "He rules the world with truth and grace",
+                "And makes the nations prove",
+                "The glories of His righteousness",
+                "And wonders of His love",
+                "And wonders of His love",
+                "And wonders, wonders of His love"
+              ]
+            }
+          ]
+        },
+        {
           "heading": "బెత్లహేములోనంటా – సందడి",
           "initial": "",
           "choruslines": "0",
@@ -200,6 +237,65 @@
           ]
         },
         {
+          "heading": "O come, all ye faithful,",
+          "initial": "",
+          "choruslines": "0",
+          "slides": [
+            {
+              "lines": [
+                "O come, all ye faithful,",
+                "joyful and triumphant,",
+                "O come ye, O come ye to Bethlehem!",
+                "Come, and behold Him,",
+                "born the King of angels!"
+              ]
+            },
+            {
+              "lines": [
+                "O come, let us adore Him;",
+                "O come, let us adore Him;",
+                "O come, let us adore Him,",
+                "Christ, the Lord!"
+              ]
+            },
+            {
+              "lines": [
+                "Sing, choirs of angels;",
+                "sing in exultation;",
+                "sing, all ye citizens",
+                "of heav'n above!",
+                "Glory to God,",
+                "all glory in the highest!"
+              ]
+            },
+            {
+              "lines": [
+                "O come, let us adore Him;",
+                "O come, let us adore Him;",
+                "O come, let us adore Him,",
+                "Christ, the Lord!"
+              ]
+            },
+            {
+              "lines": [
+                "Yea, Lord, we greet Thee,",
+                "born this happy morning;",
+                "Jesus, to Thee be all glory giv'n!",
+                "Word of the Father,",
+                "now in flesh appearing!"
+              ]
+            },
+            {
+              "lines": [
+                "O come, let us adore Him;",
+                "O come, let us adore Him;",
+                "O come, let us adore Him,",
+                "Christ, the Lord!"
+              ]
+            }
+          ]
+        },
+        {
           "heading": "చింత లేదిక యేసు పుట్టెను",
           "initial": "చింత లేదిక",
           "choruslines": "2",
@@ -242,80 +338,6 @@
                 "పరమ రక్షకుడవతరించెను",
                 "దాపు జేరిన వారికిడు గుడు భాగ్యము",
                 "మోక్ష భాగ్యము"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "రారాజు పుట్టాడోయ్ మారాజు పుట్టాడోయ్",
-          "initial": "రారాజు",
-          "choruslines": "2",
-          "slides": [
-            {
-              "lines": [
-                "రారాజు పుట్టాడోయ్ మారాజు పుట్టాడోయ్",
-                "సూడంగా రారండోయ్ వేడంగా రారండోయ్"
-              ]
-            },
-            {
-              "lines": [
-                "ఈ లోకమునకు రక్షకుడిక పుట్టినాడండోయ్",
-                "మన కొరకు దేవ దేవుడు దిగి వచ్చినాడండోయ్",
-                "నింగి నేల పొంగిపోయే, ఆ తార వెలసి మురిసిపోయే",
-                "సంబరమాయెనే, హోయ్..."
-              ]
-            },
-            {
-              "lines": [
-                "వెన్నెల వెలుగుల్లో పూసెను సలిమంట",
-                "ఊరువాడ వింతబోయే గొల్లల సవ్వడులు",
-                "కన్నుల విందుగా దూతలు పాడగా",
-                "సందడే సిందేయంగా మిన్నుల పండగ",
-                "సుక్కల్లో సంద్రుడల్లే సూడ సక్కనోడంట",
-                "పశువుల పాకలో (న) ఆ పసి బాలుడంట",
-                "చెరగని స్నేహమై..."
-              ]
-            },
-            {
-              "lines": [
-                "మచ్చలేని ముత్యమల్లే పొడిసే సూరీడు",
-                "మనసులో దీపమై దారి సూపు దేవుడు",
-                "ప్రేమ పొంగు సంద్రమల్లే, కంటికి రెప్పలా",
-                "అందరి తోడునీడై మాయని మమతలా",
-                "సల్లంగ సూడ యేసు ఇల వచ్చినాడంట",
-                "వరముగ చేర యేసు పరమును వీడేనంట",
-                "మరువని బంధమై..."
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "హాయి, లోకమా! ప్రభువచ్చెన్ అంగీకరించువిూ",
-          "initial": "",
-          "choruslines": "0",
-          "slides": [
-            {
-              "lines": [
-                "హాయి, లోకమా! ప్రభువచ్చెన్ అంగీకరించువిూ",
-                "పాపాత్ములెల్ల రేసునున్ కీర్తించి పాడుఁడీ."
-              ]
-            },
-            {
-              "lines": [
-                "హాయి రక్షకుండు ఏలును సాతాను రాజ్యమున్న",
-                "శింపఁజేసి మా యేసే జయంబు నొందును."
-              ]
-            },
-            {
-              "lines": [
-                "పాప దుఃఖంబులెల్లను నివృత్తిఁ జేయును",
-                "రక్షణ్య సుఖక్షేమముల్ సదా వ్యాపించును."
-              ]
-            },
-            {
-              "lines": [
-                "సునీతి సత్యకృపలన్ రాజ్యంబు నేలును",
-                "భూజనులార మ్రొక్కుఁడీ స్తోత్రార్హుఁడాయెనే."
               ]
             }
           ]
@@ -481,38 +503,32 @@
           ]
         },
         {
-          "heading": "Joy to the world, the Lord is come",
+          "heading": "హాయి, లోకమా! ప్రభువచ్చెన్ అంగీకరించువిూ",
           "initial": "",
           "choruslines": "0",
           "slides": [
             {
               "lines": [
-                "Joy to the world, the Lord is come",
-                "Let Earth receive her King",
-                "Let every heart prepare Him room",
-                "And Heaven and nature sing",
-                "And Heaven and nature sing",
-                "And Heaven, and Heaven, and nature sing"
+                "హాయి, లోకమా! ప్రభువచ్చెన్ అంగీకరించువిూ",
+                "పాపాత్ములెల్ల రేసునున్ కీర్తించి పాడుఁడీ."
               ]
             },
             {
               "lines": [
-                "Joy to the Earth, the Savior reigns",
-                "Let all their songs employ",
-                "While fields and floods, rocks, hills, and plains",
-                "Repeat the sounding joy",
-                "Repeat the sounding joy",
-                "Repeat, repeat the sounding joy"
+                "హాయి రక్షకుండు ఏలును సాతాను రాజ్యమున్న",
+                "శింపఁజేసి మా యేసే జయంబు నొందును."
               ]
             },
             {
               "lines": [
-                "He rules the world with truth and grace",
-                "And makes the nations prove",
-                "The glories of His righteousness",
-                "And wonders of His love",
-                "And wonders of His love",
-                "And wonders, wonders of His love"
+                "పాప దుఃఖంబులెల్లను నివృత్తిఁ జేయును",
+                "రక్షణ్య సుఖక్షేమముల్ సదా వ్యాపించును."
+              ]
+            },
+            {
+              "lines": [
+                "సునీతి సత్యకృపలన్ రాజ్యంబు నేలును",
+                "భూజనులార మ్రొక్కుఁడీ స్తోత్రార్హుఁడాయెనే."
               ]
             }
           ]
@@ -550,65 +566,6 @@
                 "With the dawn of redeeming grace",
                 "Jesus Lord, at Thy birth",
                 "Jesus Lord, at Thy birth"
-              ]
-            }
-          ]
-        },
-        {
-          "heading": "O come, all ye faithful,",
-          "initial": "",
-          "choruslines": "0",
-          "slides": [
-            {
-              "lines": [
-                "O come, all ye faithful,",
-                "joyful and triumphant,",
-                "O come ye, O come ye to Bethlehem!",
-                "Come, and behold Him,",
-                "born the King of angels!"
-              ]
-            },
-            {
-              "lines": [
-                "O come, let us adore Him;",
-                "O come, let us adore Him;",
-                "O come, let us adore Him,",
-                "Christ, the Lord!"
-              ]
-            },
-            {
-              "lines": [
-                "Sing, choirs of angels;",
-                "sing in exultation;",
-                "sing, all ye citizens",
-                "of heav'n above!",
-                "Glory to God,",
-                "all glory in the highest!"
-              ]
-            },
-            {
-              "lines": [
-                "O come, let us adore Him;",
-                "O come, let us adore Him;",
-                "O come, let us adore Him,",
-                "Christ, the Lord!"
-              ]
-            },
-            {
-              "lines": [
-                "Yea, Lord, we greet Thee,",
-                "born this happy morning;",
-                "Jesus, to Thee be all glory giv'n!",
-                "Word of the Father,",
-                "now in flesh appearing!"
-              ]
-            },
-            {
-              "lines": [
-                "O come, let us adore Him;",
-                "O come, let us adore Him;",
-                "O come, let us adore Him,",
-                "Christ, the Lord!"
               ]
             }
           ]
