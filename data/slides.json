@@ -1,18 +1,18 @@
 {
-  "date": "12/22/2023",
-  "title": "TCB Christmas carols",
-  "subtitle": "22nd Dec 2023",
+  "date": "12/25/2023",
+  "title": "Telugu Christmas Service",
+  "subtitle": "25th Dec 2023",
   "background": "",
   "sections": [
     {
-      "name": "Opening Prayer",
-      "title": "Opening Prayer",
-      "subtitle": "Pray"
+      "name": "Starting Prayer",
+      "title": "Starting Prayer",
+      "subtitle": "Bro. Anand"
     },
     {
-      "name": "Songs Practice",
-      "title": "Songs Practice",
-      "subtitle": "Sing",
+      "name": "Carols",
+      "title": "Carols",
+      "subtitle": "Unto us a Child is born.",
       "content": [
         {
           "heading": "ఓ సద్భాక్తులారా – లోక రక్షకుండు",
@@ -442,6 +442,45 @@
           ]
         },
         {
+          "heading": "Shor Duniya Mein Yeh Ho Gaya",
+          "initial": "",
+          "choruslines": "0",
+          "slides": [
+            {
+              "lines": [
+                "Shor Duniya Mein Yeh Ho Gaya",
+                "Shor Duniya Mein Yeh Ho Gaya",
+                "Aaj Paida Masih Ho Gaya",
+                "Aaj Paida Masih Ho Gaya"
+              ]
+            },
+            {
+              "lines": [
+                "Gadariye Raat Mein Bhedon Ko Charathe The (4)",
+                "Doot Sandesh Unhe Degaya (2)",
+                "Aaj Paida Masih Ho Gaya",
+                "Aaj Paida Masih Ho Gaya"
+              ]
+            },
+            {
+              "lines": [
+                "Swarg Jhum Jhum Karke Yeh Gatha Tha (4)",
+                "Sare Duniya Ka Nur Aagaya (2)",
+                "Aaj Paida Masih Ho Gaya",
+                "Aaj Paida Masih Ho Gaya"
+              ]
+            },
+            {
+              "lines": [
+                "Majhusi Sona Murr Loban Leke Aye The (4)",
+                "Dekho Mariyam Ka Lal Aagaya (2)",
+                "Aaj Paida Masih Ho Gaya",
+                "Aaj Paida Masih Ho Gaya"
+              ]
+            }
+          ]
+        },
+        {
           "heading": "Joy to the world, the Lord is come",
           "initial": "",
           "choruslines": "0",
@@ -787,12 +826,12 @@
     {
       "name": "Announcements",
       "title": "Announcements",
-      "subtitle": "Christmas Plan"
+      "subtitle": "Praise/Pray"
     },
     {
       "name": "Closing Prayer",
       "title": "Closing Prayer",
-      "subtitle": "Closing Prayer"
+      "subtitle": "Bro. Uday"
     }
   ]
 }
