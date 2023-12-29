@@ -84,6 +84,7 @@
                 <button type="button" onclick="refreshSections()">Refresh</button>
                 <button type="button" onclick="initData()">Add</button>
                 <button type="button" onclick="clearData()">Clear</button>
+                <button type="button" onclick="saveProgram()">Save Program</button>
                 <button type="button" onclick="copyProgram()">Copy Program</button>
             </td>
             <td width="30%">
@@ -257,16 +258,28 @@ const data = {
     refreshSections();
   }
 
-  function initData() {
+  function initFieldsData() {
     const date = document.getElementById('date').value;
     const title = document.getElementById('title').value;
     const subTitle = document.getElementById('subTitle').value;
     const backGround = document.getElementById('backGround').value;
 
-    data.date = date;
-    data.title = title;
-    data.subtitle = subTitle;
-    data.background = backGround;
+    return {
+    date,
+    title,
+    subtitle,
+    background,
+    }
+  }
+    
+  function initData() {
+
+    const fieldsData = initFieldsData();
+
+    data.date = fieldsData.date;
+    data.title = fieldsData.title;
+    data.subtitle = fieldsData.subTitle;
+    data.background = fieldsData.backGround;
     data.sections = [];
 
     saveData(data);
@@ -564,6 +577,16 @@ function getContent() {
     }
   }
 
+  function saveProgram() {
+    const sData = getSavedData();
+    const fieldsData = initFieldsData();
+    sData.date = fieldsData.date;
+    sData.title = fieldsData.title;
+    sData.subtitle = fieldsData.subTitle;
+    sData.background = fieldsData.backGround;
+    saveData(sData);
+  }
+    
   function saveData(obj) {
     localStorage.setItem("slidesData", JSON.stringify(obj));
   }
