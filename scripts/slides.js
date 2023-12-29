@@ -341,7 +341,7 @@
         slide.appendChild(br1);
         slide.appendChild(br2);
 
-        for (let i = skipLines; i < chorusLines; i++) {
+        for (let i = skipLines; i < (skipLines+chorusLines); i++) {
             var lineText = lines[i];
             if (lineText && lineText.indexOf('(') > 0) {
                 lineText = lineText.split('(')[0];
