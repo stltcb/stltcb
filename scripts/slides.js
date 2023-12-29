@@ -400,6 +400,13 @@
         if (section.content) {
             for (let index = 0; index < section.content.length; index++) {
                 const content = section.content[index];
+                var chLines = content.choruslines;
+                if (!chLines || chLines === '') {
+                    chLines = '0-0';
+                }
+                else if (chLines.indexOf('-') <= 0) {
+                    chLines = `${chLines}-0`;
+                }
                 const contentHeaderSlide = getContentHeaderSlide(content.heading);
                 slides.push(contentHeaderSlide);
                 if (content.slides) {
@@ -409,11 +416,10 @@
                         const nextSlide = (j < (slideLen-1)) ? content.slides[j+1] : undefined;
                         const linesSlide = getContentLinesSlide(slide.lines, (j===0)? '' : content.initial, nextSlide);
                         slides.push(linesSlide);
-                        const chLines = content.choruslines || '0-0';
                         const chla = chLines.split('-');
                         const repeatLines = parseInt(chla[0] || 0);
                         const skipLines = parseInt(chla[1] || 0);
-                        if (j > 0 && chLines > 0) {
+                        if (j > 0 && chLines !== '0-0') {
                             const chorusSlide = getChorusSlide(content.slides[0].lines, content.heading, repeatLines, skipLines, nextSlide);
                             slides.push(chorusSlide);
                         }
