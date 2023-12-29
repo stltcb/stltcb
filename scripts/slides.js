@@ -437,14 +437,14 @@
             obj = getProgram();
         }
 
-        if (obj.date && obj.date === '') {
+        if (!obj.date || obj.date === '') {
             var currentDate = new Date();
             obj.date = currentDate.toLocaleDateString('en-US');
         }
-        if (obj.subtitle && obj.subtitle === '') {
+        if (!obj.subtitle || obj.subtitle === '') {
             obj.subtitle = getLongDate(new Date());
         }
-        if (obj.background && obj.background === '') {
+        if (!obj.background || obj.background === '') {
             obj.background = 'https://i.swncdn.com/media/800w/via/8133-sunburst-through-lilac-clouds-in-sky-rising-c.webp';
         }         
         
