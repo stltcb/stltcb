@@ -1,5 +1,5 @@
 {
-    "date": "01/12/2024",
+    "date": "02/10/2024",
     "title": "Telugu Fellowship",
     "subtitle": "Family Prayer",
     "background": "",
@@ -7,7 +7,7 @@
         {
             "name": "Opening Prayer",
             "title": "Opening Prayer",
-            "subtitle": "Bro. Anand"
+            "subtitle": "Bro. Samuel"
         },
         {
             "name": "Songs",
@@ -395,6 +395,11 @@
             ]
         },
         {
+            "name": "Sermon",
+            "title": "Sermon",
+            "subtitle": "Bro. Srinivas"
+        },
+        {
             "name": "Announcements",
             "title": "Announcements",
             "subtitle": "Praise/Prayer Points"
@@ -402,7 +407,7 @@
         {
             "name": "Closing Prayer",
             "title": "Closing Prayer",
-            "subtitle": "Bro. Kiran"
+            "subtitle": "Bro. Anil"
         }
     ]
 }
