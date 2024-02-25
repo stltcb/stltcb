@@ -1,5 +1,5 @@
 {
-    "date": "02/10/2024",
+    "date": "02/24/2024",
     "title": "Telugu Fellowship",
     "subtitle": "Family Prayer",
     "background": "",
@@ -7,7 +7,7 @@
         {
             "name": "Opening Prayer",
             "title": "Opening Prayer",
-            "subtitle": "Bro. Samuel"
+            "subtitle": "Bro. Kiran"
         },
         {
             "name": "Songs",
@@ -15,184 +15,413 @@
             "subtitle": "Worship",
             "content": [
                 {
-                    "heading": "స్తోత్రింతుము నిను మాదు తండ్రి",
-                    "initial": "స్తోత్రింతుము",
-                    "choruslines": "2",
-                    "slides": [
-                        {
-                            "lines": [
-                                "స్తోత్రింతుము నిను మాదు తండ్రి",
-                                "సత్యముతో ఆత్మతో నెప్పుడు (2)",
-                                "పరిశుధ్ధాలంకారములతో",
-                                "దర్శించెదము శరణం శరణం (2)"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "శ్రేష్ఠ యీవుల యూట నీవే",
-                                "శ్రేష్ఠ కుమారుని ఇచ్చినందున (2)",
-                                "త్రిత్వమై ఏకత్వమైన త్రి-",
-                                "లోకనాథ శరణం శరణం (2)"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "దవలవర్ణుడ రత్నవర్ణుడ",
-                                "సత్యరూపి యనబడువాడా (2)",
-                                "నను రక్షించిన రక్షకుండవు",
-                                "నాథ నీవే శరణం శరణం (2)"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "రాజ నీకే స్తుతి స్తోత్రములు",
-                                "గీతములు మంగళ ధ్వనులు (2)",
-                                "శుభము శుభము శుభము నిత్యం",
-                                "హల్లెలూయా ఆమెన్ ఆమెన్ (2)"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "heading": "ఏ రీతి నీ ఋణం తీర్చుకొందు యేసయ్యా (2)",
-                    "initial": "ఏ రీతి",
-                    "choruslines": "1",
-                    "slides": [
-                        {
-                            "lines": [
-                                "ఏ రీతి నీ ఋణం తీర్చుకొందు యేసయ్యా (2)",
-                                "ఏ దిక్కు లేని నన్ను ప్రేమించినావయ్యా",
-                                "ఎంతో కృపను చూపి దీవించినావయ్యా"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "పాపాల సంద్రమందున పయనించు వేళలో (2)",
-                                "పాశాన మనసు మార్చి పరిశుద్ధుని చేసావయ్యా"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "నా పాప శిక్ష సిలువపై భరియించినావయ్యా (2)",
-                                "నా దోషములను గ్రహియించి క్షమియించినావయ్యా"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "heading": "సదాకాలము నీతో నేను జీవించెదను యేసయ్య",
-                    "initial": "సదాకాలము",
-                    "choruslines": "0",
-                    "slides": [
-                        {
-                            "lines": [
-                                "సదాకాలము నీతో నేను జీవించెదను యేసయ్య",
-                                "యేసయ్యా యేసయ్యా యేసయ్యా యేసయ్యా (2)"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "పాపాల ఊభిలో పడియున్న నన్ను",
-                                "నీ ప్రేమతో నన్ను లేపావయ్యా (2)",
-                                "ఏ తోడులేని నాకు నా తోడుగా",
-                                "నా అండగా నీవు నిలిచావయ్యా (2)"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "యేసయ్యా యేసయ్యా యేసయ్యా యేసయ్యా (2)",
-                                "సదాకాలము నీతో నేను జీవించెదను యేసయ్య"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "నీ వాత్సల్యమును నాపై చూపించి",
-                                "నీ సాక్షిగా నన్ను నిలిపావయ్యా (2)",
-                                "ఆశ్చర్యకార్యములు ఎన్నో చేసి",
-                                "నీ పాత్రగా నన్ను మలిచావయ్యా (2)"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "యేసయ్యా యేసయ్యా యేసయ్యా యేసయ్యా (2)",
-                                "సదాకాలము నీతో నేను జీవించెదను యేసయ్య"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "heading": "ఈ లోక యాత్రాలో నే సాగుచుండ (2)",
-                    "initial": "ఈ లోక",
-                    "choruslines": "1",
-                    "slides": [
-                        {
-                            "lines": [
-                                "ఈ లోక యాత్రాలో నే సాగుచుండ (2)",
-                                "ఒకసారి నవ్వు – ఒకసారి ఏడ్పు (2)",
-                                "అయినాను క్రీస్తేసు నా తోడనుండు (2)"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "జీవిత యాత్ర ఎంతో కఠినము (2)",
-                                "ఘోరాంధకార తుఫానులున్నవి (2)",
-                                "అభ్యంతరములు ఎన్నెన్నో ఉండు (2)",
-                                "కాయు వారెవరు రక్షించేదెవరు (2)"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "నీవే ఆశ్రయం క్రీస్తేసు ప్రభువా (2)",
-                                "అనుదినము నన్ను ఆదరించెదవు (2)",
-                                "నీతో ఉన్నాను విడువలేదనెడు (2)",
-                                "నీ ప్రేమ మధుర స్వరము విన్నాను (2)"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "తోడై యుండెదవు అంతము వరకు (2)",
-                                "నీవు విడువవు అందరు విడచినను (2)",
-                                "నూతన బలమును నాకొసగెదవు (2)",
-                                "నే స్థిరముగ నుండ నీ కోరిక ఇదియే (2)"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "heading": "What a friend we have in Jesus",
+                    "heading": "అన్ని నామముల కన్న పై నామము",
                     "initial": "",
                     "choruslines": "0",
                     "slides": [
                         {
                             "lines": [
-                                "What a friend we have in Jesus",
-                                "All our sins and griefs to bear",
-                                "What a privilege to carry",
-                                "everything to God in prayer!"
+                                "అన్ని నామముల కన్న పై నామము",
+                                "యేసుని నామము",
+                                "ఎన్ని తరములకైనా ఘనపరచ దగినది",
+                                "క్రీస్తేసు నామము (2)"
                             ]
                         },
                         {
                             "lines": [
-                                "O what peace we often forfeit",
-                                "O what needless pain we bear",
-                                "All because we do not carry",
-                                "everything to God in prayer"
+                                "యేసు నామము జయం జయము",
+                                "సాతాను శక్తుల్ లయం లయము (2)",
+                                "హల్లెలూయ హొసన్న హల్లెలూయా",
+                                "హల్లెలూయా ఆమెన్ (2)"
                             ]
                         },
                         {
                             "lines": [
-                                "Have we trials and temptations?",
-                                "Is there trouble anywhere?",
-                                "We should never be discouraged",
-                                "Take it to the Lord in prayer"
+                                "పాపముల నుండి విడిపించును",
+                                "యేసుని నామము (2)",
+                                "నిత్య నరకాగ్నిలో నుండి రక్షించును",
+                                "క్రీస్తేసు నామము (2)"
                             ]
                         },
                         {
                             "lines": [
-                                "Can we find a friend so faithful",
-                                "Who will all our sorrows share?",
-                                "Jesus knows our every weakness",
-                                "Take it to the Lord in prayer"
+                                "యేసు నామము జయం జయము",
+                                "సాతాను శక్తుల్ లయం లయము (2)",
+                                "హల్లెలూయ హొసన్న హల్లెలూయా",
+                                "హల్లెలూయా ఆమెన్ (2)"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "సాతాను పై అధికార మిచ్చును",
+                                "శక్తి గల యేసు నామము (2)",
+                                "శత్రు సమూహము పై జయమునిచ్చును",
+                                "జయశీలుడైన యేసు నామము (2)"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "యేసు నామము జయం జయము",
+                                "సాతాను శక్తుల్ లయం లయము (2)",
+                                "హల్లెలూయ హొసన్న హల్లెలూయా",
+                                "హల్లెలూయా ఆమెన్ (2)"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "స్తుతి ఘన మహిమలు చెల్లించుచు",
+                                "క్రొత్త కీర్తన పాడెదము (2)",
+                                "జయ ధ్వజమును పైకెత్తి కేకలతో",
+                                "స్తోత్ర గానము చేయుదము (2)"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "యేసు నామము జయం జయము",
+                                "సాతాను శక్తుల్ లయం లయము (2)",
+                                "హల్లెలూయ హొసన్న హల్లెలూయా",
+                                "హల్లెలూయా ఆమెన్ (2)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "heading": "అపరాధిని యేసయ్యా",
+                    "initial": "",
+                    "choruslines": "2",
+                    "slides": [
+                        {
+                            "lines": [
+                                "అపరాధిని యేసయ్యా",
+                                "కృపజూపి బ్రోవుమయ్యా (2)",
+                                "నెపమెంచకయె నీ కృపలో",
+                                "నపరాధములను క్షమించు (2)"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "సిలువకు నిను నే గొట్టి",
+                                "తులువలతో జేరితిని (2)",
+                                "కలుషంబులను మోపితిని",
+                                "దోషుండ నేను ప్రభువా (2)"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "ఘోరంబుగా దూరితిని",
+                                "నేరంబులను జేసితిని (2)",
+                                "కౄరుండనై గొట్టితిని",
+                                "ఘోరంపు పాపిని దేవా (2)"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "చిందితి రక్తము నాకై",
+                                "పొందిన దెబ్బల చేత (2)",
+                                "అపనిందలు మోపితినయ్యో",
+                                "సందేహమేలనయ్యా (2)"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "శిక్షకు పాత్రుడనయ్యా",
+                                "రక్షణ దెచ్చితివయ్యా (2)",
+                                "అక్షయ భాగ్యము నియ్య",
+                                "మోక్షంబు జూపితివయ్యా (2)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "heading": "స్తుతిపాత్రుడా స్తోత్రార్హుడా",
+                    "initial": "స్తుతి",
+                    "choruslines": "2",
+                    "slides": [
+                        {
+                            "lines": [
+                                "స్తుతిపాత్రుడా స్తోత్రార్హుడా",
+                                "స్తుతులందుకో పూజార్హుడా (2)",
+                                "ఆకాశమందు నీవు తప్ప",
+                                "నాకెవరున్నారు నా ప్రభు (2)"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "నా శత్రువులు నను తరుముచుండగా",
+                                "నా యాత్మ నాలో కృంగెనే ప్రభు (2)",
+                                "నా మనస్సు నీవైపు – త్రిప్పిన వెంటనే",
+                                "శత్రువుల చేతినుండి విడిపించినావు",
+                                "కాపాడినావు (2)"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "నా ప్రాణ స్నేహితులు నన్ను చూచి",
+                                "దూరాన నిలిచేరు నా ప్రభూ (2)",
+                                "నీ వాక్య ధ్యానమే – నా త్రోవకు వెలుగై",
+                                "నను నిల్పెను నీ సన్నిధిలో",
+                                "నీ సంఘములో (2)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "heading": "నా బ్రతుకు దినములు లెక్కింప నేర్పుము",
+                    "initial": "నా బ్రతుకు",
+                    "choruslines": "4",
+                    "slides": [
+                        {
+                            "lines": [
+                                "నా బ్రతుకు దినములు లెక్కింప నేర్పుము",
+                                "దేవా ఈ భువిని వీడు గడియ నాకు చూపుము",
+                                "ఇంకొంత కాలము ఆయుష్షు పెంచుము",
+                                "నా బ్రతుకు మార్చుకొందును సమయమునిమ్ము"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "ఎన్నో సంవత్సరాలు నన్ను దాటిపోవుచున్నవి",
+                                "నా ఆశలు నా కలలనే వెంబడించుచుంటిని",
+                                "ఫలాలు లేని వృక్షము వలె ఎదిగిపోతిని",
+                                "ఏనాడు కూలిపోదునో ఎరుగకుంటిని",
+                                "నా మరణ రోదన ఆలకించుమో ప్రభు",
+                                "మరల నన్ను నూతనముగ చిగురు వేయని"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "నీ పిలుపు నేను మరచితి – నా పరుగులో నేనలసితి",
+                                "నా స్వార్ధము నా పాపము – పతన స్థితికి చేర్చెను",
+                                "నా అంతమెటుల నుండునో – భయము పుట్టుచున్నది",
+                                "దేవా నన్ను మన్నించుము – నా బ్రతుకు మార్చుము",
+                                "యేసూ నీ చేతికి ఇక లొంగిపోదును",
+                                "విశేషముగా రూపించుము నా శేష జీవితం"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "heading": "Pavangal Pokave Sabangal Neekave (Tamil)",
+                    "initial": "",
+                    "choruslines": "0",
+                    "slides": [
+                        {
+                            "lines": [
+                                "Pavangal Pokave Sabangal Neekave",
+                                "Boologam Vandhaaraiyaa",
+                                "Manidharai meetkavae",
+                                "Paralogam thirakavae",
+                                "Siluvaiyai sumandaaraiyaa"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "Pavangal Pokave Sabangal Neekave",
+                                "Boologam Vandhaaraiyaa",
+                                "Manidharai meetkavae",
+                                "Paralogam thirakavae",
+                                "Siluvaiyai sumandaaraiyaa"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "Kanneerai thudaithaaraiyaa",
+                                "Sandhosham thandhaaraiyaa",
+                                "Kanneerai thudaithaaraiyaa",
+                                "Sandhosham thandhaaraiyaa"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "Endhan Yesuvae Endhan Yesuvae",
+                                "Endhan Yesuvae Endhan Yesuvae"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "Thangathai kaetkavillai",
+                                "Vairathai kaetkavillai",
+                                "Ullathai kaetaaraiyaa",
+                                "Aasthiyai kaetkavillai",
+                                "Andhasthai kaetkavillai",
+                                "Ullathai kaetaaraiyaa"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "Thangathai kaetkavillai",
+                                "Vairathai kaetkavillai",
+                                "Ullathai kaetaaraiyaa",
+                                "Aasthiyai kaetkavillai",
+                                "Andhasthai kaetkavillai",
+                                "Ullathai kaetaaraiyaa"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "Naan thaedi pogavilla",
+                                "Ennai thaedi vandaaraiyaa",
+                                "Naan thaedi pogavilla",
+                                "Ennai thaedi vandaaraiyaa"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "Endhan Yesuvae Endhan Yesuvae",
+                                "Endhan Yesuvae Endhan Yesuvae"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "Thaai unnai marandaalum",
+                                "Thandhai unnai marandaalum",
+                                "Avar unnai marakkamattaar",
+                                "Nanbar unnai marandaalum",
+                                "Uttraar unnai marandaalum",
+                                "Avar unnai marakkamattaar"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "Thaai unnai marandaalum",
+                                "Thandhai unnai marandaalum",
+                                "Avar unnai marakkamattaar",
+                                "Nanbar unnai marandaalum",
+                                "Uttraar unnai marandaalum",
+                                "Avar unnai marakkamattaar"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "Karam pidithu nadathiduvaar",
+                                "Kan malai mael niruthiduvaar",
+                                "Karam pidithu nadathiduvaar",
+                                "Kan malai mael niruthiduvaar"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "Endhan Yesuvae Endhan Yesuvae",
+                                "Endhan Yesuvae Endhan Yesuvae",
+                                "Endhan Yesuvae Endhan Yesuvae",
+                                "Endhan Yesuvae Endhan Yesuvae"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "heading": "పాపాన్ని పోగొట్టి శాపాన్ని తొలగించా భూలోకం వచ్చావయ్యా",
+                    "initial": "",
+                    "choruslines": "0",
+                    "slides": [
+                        {
+                            "lines": [
+                                "పాపాన్ని పోగొట్టి శాపాన్ని తొలగించా భూలోకం వచ్చావయ్యా",
+                                "మానవుని విడిపించి పరలోకమిచ్చుటకు సిలువను మోసవయ్య",
+                                "కన్నీరే తుడిచావయ్యా సంతోషం ఇచ్చావయ్య"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "నా సర్వం యేసయ్య నా జీవం యేసయ్య నా",
+                                "ప్రాణం యేసయ్య నా ధ్యానం యేసయ్య"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "బంగారం కోరలేదు వెండియు కోరలేదు",
+                                "హృదయాన్ని కొరవయ్య",
+                                "ఆస్తియు అడగలేదు అంతస్థులడగలేదు",
+                                "హృదయాన్ని అడిగావయ్య",
+                                "నేవెదకి రాలేదని నా కోసం వచ్చావయ్యా"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "నా సర్వం యేసయ్య నా జీవం యేసయ్య నా",
+                                "ప్రాణం యేసయ్య నా ధ్యానం యేసయ్య"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "తల్లి నిన్ను మరచిన తండ్రి నిన్ను మరచిన",
+                                "యేసయ్య మరువాడయ్యా",
+                                "బంధువులు విడిచిన స్నేహితులు విడచిన",
+                                "యేసయ్య విడువడయ్య",
+                                "చేపట్టి నడుపునయ్య శిఖరముపై నిలుపునయ్య"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "నా సర్వం యేసయ్య నా జీవం యేసయ్య నా",
+                                "ప్రాణం యేసయ్య నా ధ్యానం యేసయ్య."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "heading": "All to Jesus, I surrender;",
+                    "initial": "",
+                    "choruslines": "0",
+                    "slides": [
+                        {
+                            "lines": [
+                                "All to Jesus, I surrender;",
+                                "All to Him I freely give;",
+                                "I will ever love and trust Him,",
+                                "In His presence daily live."
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "I surrender all, I surrender all,",
+                                "All to Thee, my blessèd Savior,",
+                                "I surrender all."
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "All to Jesus I surrender;",
+                                "Humbly at His feet I bow,",
+                                "Worldly pleasures all forsaken;",
+                                "Take me, Jesus, take me now."
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "I surrender all, I surrender all,",
+                                "All to Thee, my blessèd Savior,",
+                                "I surrender all."
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "All to Jesus, I surrender;",
+                                "Make me, Savior, wholly Thine;",
+                                "Let me feel the Holy Spirit,",
+                                "Truly know that Thou art mine."
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "I surrender all, I surrender all,",
+                                "All to Thee, my blessèd Savior,",
+                                "I surrender all."
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "All to Jesus, I surrender;",
+                                "Lord, I give myself to Thee;",
+                                "Fill me with Thy love and power;",
+                                "Let Thy blessing fall on me."
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "I surrender all, I surrender all,",
+                                "All to Thee, my blessèd Savior,",
+                                "I surrender all."
                             ]
                         }
                     ]
@@ -212,7 +441,7 @@
         {
             "name": "Closing Prayer",
             "title": "Closing Prayer",
-            "subtitle": "Bro. Anil"
+            "subtitle": "Bro. Pradeep"
         }
     ]
 }
