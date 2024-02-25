@@ -201,7 +201,7 @@
                     ]
                 },
                 {
-                    "heading": "Pavangal Pokave Sabangal Neekave (Tamil)",
+                    "heading": "పాపాన్ని పోగొట్టి శాపాన్ని తొలగించా (tamil/telugu)",
                     "initial": "",
                     "choruslines": "0",
                     "slides": [
@@ -209,32 +209,45 @@
                             "lines": [
                                 "Pavangal Pokave Sabangal Neekave",
                                 "Boologam Vandhaaraiyaa",
-                                "Manidharai meetkavae",
-                                "Paralogam thirakavae",
-                                "Siluvaiyai sumandaaraiyaa"
+                                "పాపాన్ని పోగొట్టి శాపాన్ని తొలగించా భూలోకం వచ్చావయ్యా"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "Manidharai meetkavae Paralogam thirakavae",
+                                "Siluvaiyai sumandaaraiyaa",
+                                "మానవుని విడిపించి పరలోకమిచ్చుటకు",
+                                "సిలువను మోసవయ్య"
                             ]
                         },
                         {
                             "lines": [
                                 "Pavangal Pokave Sabangal Neekave",
                                 "Boologam Vandhaaraiyaa",
-                                "Manidharai meetkavae",
-                                "Paralogam thirakavae",
-                                "Siluvaiyai sumandaaraiyaa"
+                                "పాపాన్ని పోగొట్టి శాపాన్ని తొలగించా భూలోకం వచ్చావయ్యా"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "Manidharai meetkavae Paralogam thirakavae",
+                                "Siluvaiyai sumandaaraiyaa",
+                                "మానవుని విడిపించి పరలోకమిచ్చుటకు",
+                                "సిలువను మోసవయ్య"
                             ]
                         },
                         {
                             "lines": [
                                 "Kanneerai thudaithaaraiyaa",
-                                "Sandhosham thandhaaraiyaa",
-                                "Kanneerai thudaithaaraiyaa",
-                                "Sandhosham thandhaaraiyaa"
+                                "Sandhosham thandhaaraiyaa - 2",
+                                "కన్నీరే తుడిచావయ్యా సంతోషం ఇచ్చావయ్య – 2"
                             ]
                         },
                         {
                             "lines": [
                                 "Endhan Yesuvae Endhan Yesuvae",
-                                "Endhan Yesuvae Endhan Yesuvae"
+                                "Endhan Yesuvae Endhan Yesuvae",
+                                "నా సర్వం యేసయ్య  నా జీవం యేసయ్య",
+                                "నా ప్రాణం యేసయ్య  నా ధ్యానం యేసయ్య"
                             ]
                         },
                         {
@@ -242,119 +255,102 @@
                                 "Thangathai kaetkavillai",
                                 "Vairathai kaetkavillai",
                                 "Ullathai kaetaaraiyaa",
-                                "Aasthiyai kaetkavillai",
-                                "Andhasthai kaetkavillai",
-                                "Ullathai kaetaaraiyaa"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "Thangathai kaetkavillai",
-                                "Vairathai kaetkavillai",
-                                "Ullathai kaetaaraiyaa",
-                                "Aasthiyai kaetkavillai",
-                                "Andhasthai kaetkavillai",
-                                "Ullathai kaetaaraiyaa"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "Naan thaedi pogavilla",
-                                "Ennai thaedi vandaaraiyaa",
-                                "Naan thaedi pogavilla",
-                                "Ennai thaedi vandaaraiyaa"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "Endhan Yesuvae Endhan Yesuvae",
-                                "Endhan Yesuvae Endhan Yesuvae"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "Thaai unnai marandaalum",
-                                "Thandhai unnai marandaalum",
-                                "Avar unnai marakkamattaar",
-                                "Nanbar unnai marandaalum",
-                                "Uttraar unnai marandaalum",
-                                "Avar unnai marakkamattaar"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "Thaai unnai marandaalum",
-                                "Thandhai unnai marandaalum",
-                                "Avar unnai marakkamattaar",
-                                "Nanbar unnai marandaalum",
-                                "Uttraar unnai marandaalum",
-                                "Avar unnai marakkamattaar"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "Karam pidithu nadathiduvaar",
-                                "Kan malai mael niruthiduvaar",
-                                "Karam pidithu nadathiduvaar",
-                                "Kan malai mael niruthiduvaar"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "Endhan Yesuvae Endhan Yesuvae",
-                                "Endhan Yesuvae Endhan Yesuvae",
-                                "Endhan Yesuvae Endhan Yesuvae",
-                                "Endhan Yesuvae Endhan Yesuvae"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "heading": "పాపాన్ని పోగొట్టి శాపాన్ని తొలగించా భూలోకం వచ్చావయ్యా",
-                    "initial": "",
-                    "choruslines": "0",
-                    "slides": [
-                        {
-                            "lines": [
-                                "పాపాన్ని పోగొట్టి శాపాన్ని తొలగించా భూలోకం వచ్చావయ్యా",
-                                "మానవుని విడిపించి పరలోకమిచ్చుటకు సిలువను మోసవయ్య",
-                                "కన్నీరే తుడిచావయ్యా సంతోషం ఇచ్చావయ్య"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "నా సర్వం యేసయ్య నా జీవం యేసయ్య నా",
-                                "ప్రాణం యేసయ్య నా ధ్యానం యేసయ్య"
-                            ]
-                        },
-                        {
-                            "lines": [
                                 "బంగారం కోరలేదు వెండియు కోరలేదు",
-                                "హృదయాన్ని కొరవయ్య",
+                                "హృదయాన్ని కొరవయ్య"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "Aasthiyai kaetkavillai",
+                                "Andhasthai kaetkavillai",
+                                "Ullathai kaetaaraiyaa",
                                 "ఆస్తియు అడగలేదు అంతస్థులడగలేదు",
-                                "హృదయాన్ని అడిగావయ్య",
-                                "నేవెదకి రాలేదని నా కోసం వచ్చావయ్యా"
+                                "హృదయాన్ని అడిగావయ్య"
                             ]
                         },
                         {
                             "lines": [
-                                "నా సర్వం యేసయ్య నా జీవం యేసయ్య నా",
-                                "ప్రాణం యేసయ్య నా ధ్యానం యేసయ్య"
+                                "Thangathai kaetkavillai",
+                                "Vairathai kaetkavillai",
+                                "Ullathai kaetaaraiyaa",
+                                "బంగారం కోరలేదు వెండియు కోరలేదు",
+                                "హృదయాన్ని కొరవయ్య"
                             ]
                         },
                         {
                             "lines": [
-                                "తల్లి నిన్ను మరచిన తండ్రి నిన్ను మరచిన",
-                                "యేసయ్య మరువాడయ్యా",
-                                "బంధువులు విడిచిన స్నేహితులు విడచిన",
-                                "యేసయ్య విడువడయ్య",
-                                "చేపట్టి నడుపునయ్య శిఖరముపై నిలుపునయ్య"
+                                "Aasthiyai kaetkavillai",
+                                "Andhasthai kaetkavillai",
+                                "Ullathai kaetaaraiyaa",
+                                "ఆస్తియు అడగలేదు అంతస్థులడగలేదు",
+                                "హృదయాన్ని అడిగావయ్య"
                             ]
                         },
                         {
                             "lines": [
-                                "నా సర్వం యేసయ్య నా జీవం యేసయ్య నా",
-                                "ప్రాణం యేసయ్య నా ధ్యానం యేసయ్య."
+                                "Naan thaedi pogavilla",
+                                "Ennai thaedi vandaaraiyaa - 2",
+                                "నేవెదకి రాలేదని నా కోసం వచ్చావయ్యా",
+                                "కన్నీరే తుడిచావయ్యా సంతోషం ఇచ్చావయ్య -2"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "Endhan Yesuvae Endhan Yesuvae",
+                                "Endhan Yesuvae Endhan Yesuvae",
+                                "నా సర్వం యేసయ్య  నా జీవం యేసయ్య",
+                                "నా ప్రాణం యేసయ్య  నా ధ్యానం యేసయ్య"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "Thaai unnai marandaalum",
+                                "Thandhai unnai marandaalum",
+                                "Avar unnai marakkamattaar",
+                                "తల్లి నిన్ను మరచిన తండ్రి నిన్ను",
+                                "మరచిన యేసయ్య మరువాడయ్యా"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "Nanbar unnai marandaalum",
+                                "Uttraar unnai marandaalum",
+                                "Avar unnai marakkamattaar",
+                                "బంధువులు విడిచిన స్నేహితులు",
+                                "విడచిన యేసయ్య విడువడయ్య"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "Thaai unnai marandaalum",
+                                "Thandhai unnai marandaalum",
+                                "Avar unnai marakkamattaar",
+                                "తల్లి నిన్ను మరచిన తండ్రి నిన్ను",
+                                "మరచిన యేసయ్య మరువాడయ్యా"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "Nanbar unnai marandaalum",
+                                "Uttraar unnai marandaalum",
+                                "Avar unnai marakkamattaar",
+                                "బంధువులు విడిచిన స్నేహితులు",
+                                "విడచిన యేసయ్య విడువడయ్య"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "Karam pidithu nadathiduvaar",
+                                "Kan malai mael niruthiduvaar -2",
+                                "చేపట్టి నడుపునయ్య శిఖరముపై నిలుపునయ్య - 2"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "Endhan Yesuvae Endhan Yesuvae",
+                                "Endhan Yesuvae Endhan Yesuvae",
+                                "నా సర్వం యేసయ్య  నా జీవం యేసయ్య",
+                                "నా ప్రాణం యేసయ్య  నా ధ్యానం యేసయ్య"
                             ]
                         }
                     ]
