@@ -1,13 +1,13 @@
 {
-    "date": "03/31/2024",
+    "date": "03/13/2024",
     "title": "Telugu Fellowship",
-    "subtitle": "Easter Worship",
+    "subtitle": "Family Prayer",
     "background": "",
     "sections": [
         {
             "name": "Opening Prayer",
             "title": "Opening Prayer",
-            "subtitle": "Bro. Naveen"
+            "subtitle": "Bro. Pradeep"
         },
         {
             "name": "Songs",
@@ -15,324 +15,289 @@
             "subtitle": "Worship",
             "content": [
                 {
-                    "heading": "గీతం గీతం జయ జయ గీతం",
-                    "initial": " గీతం",
-                    "choruslines": "4",
-                    "slides": [
-                        {
-                            "lines": [
-                                "గీతం గీతం జయ జయ గీతం",
-                                "చేయి తట్టి పాడెదము (2)",
-                                "యేసు రాజు లేచెను హల్లెలూయ",
-                                "జయ మార్భటించెదము (2)"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "చూడు సమాధిని మూసినరాయి",
-                                "దొరలింపబడెను",
-                                "అందు వేసిన ముద్ర కావలి నిల్చెను",
-                                "దైవ సుతుని ముందు"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "వలదు వలదు యేడువవలదు",
-                                "వెళ్ళుడి గలిలయకు",
-                                "తాను చెప్పిన విధమున తిరిగి లేచెను",
-                                "పరుగిడి ప్రకటించుడి"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "అన్న కయప వారల సభయు",
-                                "అదరుచు పరుగిడిరి",
-                                "ఇంక దూత గణముల ధ్వనిని వినుచు",
-                                "వణకుచు భయపడిరి"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "గుమ్మముల్ తెరచి చక్కగ నడువుడి",
-                                "జయ వీరుడు రాగా",
-                                "మీ మేళతాళ వాద్యముల్ బూర",
-                                "లెత్తి ధ్వనించుడి"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "heading": "జయ జయ యేసు – జయ యేసు",
-                    "initial": " జయ జయ ",
-                    "choruslines": "4",
-                    "slides": [
-                        {
-                            "lines": [
-                                "జయ జయ యేసు – జయ యేసు",
-                                "జయ జయ క్రీస్తు – జయ క్రీస్తు (2)",
-                                "జయ జయ రాజా – జయ రాజా (2)",
-                                "జయ జయ స్తోత్రం – జయ స్తోత్రం"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "మరణము గెల్చిన జయ యేసు – మరణము ఓడెను జయ క్రీస్తు (2)",
-                                "పరమ బలమొసగు జయ యేసు (2)",
-                                "శరణము నీవే జయ యేసు"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "సమాధి గెల్చిన జయ యేసు – సమాధి ఓడెను జయ క్రీస్తు (2)",
-                                "సమరము గెల్చిన జయ యేసు (2)",
-                                "అమరముర్తివి జయ యేసు"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "సాతాన్ను గెల్చిన జయ యేసు – సాతాను ఓడెను జయ క్రీస్తు (2)",
-                                "పాతవి గతియించె జయ యేసు (2)",
-                                "దాతవు నీవే జయ యేసు"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "బండను గెల్చిన జయ యేసు – బండయు ఓడెను జయ క్రీస్తు (2)",
-                                "బండలు తీయుము జయ యేసు (2)",
-                                "అండకు చేర్చుము జయ యేసు"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "ముద్రను గెల్చిన జయ యేసు – ముద్రయు ఓడెను జయ క్రీస్తు (2)",
-                                "ముద్రలు తీయుము జయ యేసు (2)",
-                                "ముద్రించుము నను జయ యేసు"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "కావలి గెల్చిన జయ యేసు – కావలి ఓడెను జయ క్రీస్తు (2)",
-                                "సేవలో బలము జయ యేసు (2)",
-                                "జీవము నీవే జయ యేసు"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "దయ్యాలు గెల్చిన జయ యేసు – దయ్యాలు ఓడెను జయ క్రీస్తు (2)",
-                                "కయ్యము గెల్చిన జయ యేసు (2)",
-                                "అయ్యా నీవే జయ యేసు"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "heading": "ఎవరు చూపించలేని – ఇలలో నను వీడిపోని",
-                    "initial": "ఎవరు",
-                    "choruslines": "4",
-                    "slides": [
-                        {
-                            "lines": [
-                                "ఎవరు చూపించలేని – ఇలలో నను వీడిపోని",
-                                "ఎంతటి ప్రేమ నీది – ఇంతగా కోరుకుంది – మరువను యేసయ్యా (2)",
-                                "నీ కథే నన్నే తాకగా – నా మదే నిన్నే చేరగా",
-                                "నా గురే నీవై యుండగా – నీ దరే నే చేరానుగా"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "తీరాలే దూరమాయే – కాలాలే మారిపోయే",
-                                "ఎదురైన ఎండమావే – కన్నీటి కానుకాయే",
-                                "నా గుండె లోతులోన – నే నలిగిపోతువున్నా",
-                                "ఏ దారి కానరాక – నీ కొరకు వేచివున్నా",
-                                "ఎడబాటులేని గమనాన – నిను చేరుకున్న సమయాన",
-                                "నను ఆదరించే ఘన ప్రేమ – అపురూపమైన తొలిప్రేమ",
-                                "ఏకమై తోడుగా – ఊపిరే నీవుగా",
-                                "ఎవ్వరూ లేరుగా – యేసయ్యా నీవెగా"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "ఈ లోక జీవితాన – వేసారిపోతువున్నా",
-                                "విలువైన నీదు వాక్యం – వెలిగించె నా ప్రాణం",
-                                "నీ సన్నిధానమందు – సీయోను మార్గమందు",
-                                "నీ దివ్య సేవలోనే – నడిపించే నా ప్రభూ",
-                                "నీ తోటి సాగు పయనాన – నను వీడలేదు క్షణమైన",
-                                "నీ స్వరము చాలు ఉదయాన – నిను వెంబడించు తరుణాన",
-                                "శాశ్వత ప్రేమతో – సత్యవాక్యంబుతో",
-                                "నిత్యము తోడుగా – నిలిచె నా యేసయ్యా"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "heading": "God sent His Son, they called Him Jesus",
-                    "initial": "",
-                    "choruslines": "0",
-                    "slides": [
-                        {
-                            "lines": [
-                                "God sent His Son, they called Him Jesus",
-                                "He came to love, heal and forgive",
-                                "He lived and died, to buy my pardon",
-                                "An empty grave, is there to prove, my Savior lives"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "Because He lives,",
-                                "I can face tomorrow",
-                                "Because He lives,",
-                                "all fear is gone"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "Because I know,",
-                                "He holds the future",
-                                "And life is worth,",
-                                "the living just, because He lives"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "How sweet to hold, a newborn baby",
-                                "And feel the pride, and joy He brings",
-                                "But greater still, the calm assurance",
-                                "This child can face, uncertain days, because He lives"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "And then one day, I’ll cross the river",
-                                "I’ll fight life’s final, war with pain",
-                                "And then as death, gives way to victory",
-                                "I’ll see the lights, of glory and, I’ll know He lives"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "heading": "In Christ alone my hope is found,",
+                    "heading": "నేను నా ఇల్లు నా ఇంటివారందరు",
                     "initial": "",
                     "choruslines": 0,
                     "slides": [
                         {
                             "lines": [
-                                "In Christ alone my hope is found,",
-                                "He is my light, my strength, my song",
-                                "This Cornerstone, this solid Ground",
-                                "Firm through the fiercest drought and storm."
+                                "నేను నా ఇల్లు నా ఇంటివారందరు",
+                                "మానక స్తుతించెదము (2)",
+                                "నీ కనుపాప వలె నన్ను కాచి",
+                                "నేను చెదరక మోసావు స్తోతం్ర(2)"
                             ]
                         },
                         {
                             "lines": [
-                                "What heights of love, what depths of peace",
-                                "When fears are stilled, when strivings cease",
-                                "My Comforter, my All in All",
-                                "Here in the love of Christ I stand."
+                                "ఎబినేజరేఎబినేజరే– ఇంత కాలం కాచితివే",
+                                "ఎబినేజరేఎబినేజరే– నా తోడువైనడచితివే(2)",
+                                "స్తోతం్రస్తోతం్రస్తోతం్ర– కనుపాపగా కాచితివి స్తోతం్ర",
+                                "స్తోతం్రస్తోతం్రస్తోతం్ర– కౌగిలిలో దాచితివి స్తోతం్ర"
                             ]
                         },
                         {
                             "lines": [
-                                "In Christ alone! – who took on flesh,",
-                                "Fullness of God in helpless babe.",
-                                "This gift of love and righteousness,",
-                                "Scorned by the ones He came to save"
+                                "నేను నా ఇల్లు నా ఇంటివారందరు",
+                                "మానక స్తుతించెదము (2)",
+                                "నీ కనుపాప వలె నన్ను కాచి",
+                                "నేను చెదరక మోసావు స్తోతం్ర(2)"
                             ]
                         },
                         {
                             "lines": [
-                                "Till on that cross as Jesus died,",
-                                "The wrath of God was satisfied",
-                                "For every sin on Him was laid",
-                                "Here in the death of Christ I live."
+                                "ఎడారిలో ఉన్న నా జీవితమును",
+                                "మేలుతో నింపితివే(2)",
+                                "ఒక కీడైన దరిచేరక నన్ను",
+                                "తండ్రిగ్రిా కాచావు స్తోతం్ర(2)"
                             ]
                         },
                         {
                             "lines": [
-                                "There in the ground His body lay,",
-                                "Light of the world by darkness slain:",
-                                "Then bursting forth in glorious day",
-                                "Up from the grave He rose again"
+                                "నేను నా ఇల్లు నా ఇంటివారందరు",
+                                "మానక స్తుతించెదము (2)",
+                                "నీ కనుపాప వలె నన్ను కాచి",
+                                "నేను చెదరక మోసావు స్తోతం్ర(2)"
                             ]
                         },
                         {
                             "lines": [
-                                "And as He stands in victory",
-                                "Sin’s curse has lost its grip on me,",
-                                "For I am His and He is mine",
-                                "Bought with the precious blood of Christ"
+                                "నిరాశతో ఉన్న నా హీన బత్రుకును",
+                                "నీ కృపతో నింపితివే(2)",
+                                "నీవు చూపిన ప్రేమను పాడగా",
+                                "పదములు సరిపోవు తండ్రి(2)"
                             ]
                         },
                         {
                             "lines": [
-                                "No guilt in life, no fear in death,",
-                                "This is the power of Christ in me",
-                                "From life’s first cry to final breath,",
-                                "Jesus commands my destiny"
+                                "నేను నా ఇల్లు నా ఇంటివారందరు",
+                                "మానక స్తుతించెదము (2)",
+                                "నీ కనుపాప వలె నన్ను కాచి",
+                                "నేను చెదరక మోసావు స్తోతం్ర(2)"
                             ]
                         },
                         {
                             "lines": [
-                                "No power of hell, no scheme of man,",
-                                "Can ever pluck me from His hand",
-                                "Till He returns or calls me home",
-                                "Here in the power of Christ I’ll stand."
+                                "జ్ఞానుల మధ్యలో నను పిలిచిన నీ పిలుపే",
+                                "ఆశ్చర్యమాశ్చర్యమే(2)",
+                                "నీ పాతను ్ర కానేకాను",
+                                "కేవలము నీ కృపయేస్తోతం్ర(2)"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "నేను నా ఇల్లు నా ఇంటివారందరు",
+                                "మానక స్తుతించెదము (2)",
+                                "నీ కనుపాప వలె నన్ను కాచి",
+                                "నేను చెదరక మోసావు స్తోతం్ర(2)"
                             ]
                         }
                     ]
                 },
                 {
-                    "heading": "Amazing grace! How sweet the sound",
+                    "heading": "ఆరాధన స్తుతి ఆరాధన - 4",
                     "initial": "",
                     "choruslines": 0,
                     "slides": [
                         {
                             "lines": [
-                                "Amazing grace! How sweet the sound",
-                                "That saved a wretch like me!",
-                                "I once was lost, but now am found;",
-                                "Was blind, but now I see."
+                                "ఆరాధన స్తుతి ఆరాధన - 4",
+                                "నీవంటివారు ఒక్కరును లేరు - నీవేఅతి శ్రేష్రే్టుడా",
+                                "దూత గణములు నిత్యము కొలిచే- నీవేపరిశుద్దుడా",
+                                "నిన్నా నేడు మారని",
+                                "ఆరాధన స్తుతి ఆరాధన - 4"
                             ]
                         },
                         {
                             "lines": [
-                                "’Twas grace that taught my heart to fear,",
-                                "And grace my fears relieved;",
-                                "How precious did that grace appear",
-                                "The hour I first believed."
+                                "అబహా్ర ము ఇస్సాకును బలి ఇచ్చినారాధన",
+                                "రాళ్ళతో చంపబడిన స్తెఫను వలె ఆరాధన - 2",
+                                "ఆరాధన స్తుతి ఆరాధన - 4"
                             ]
                         },
                         {
                             "lines": [
-                                "Through many dangers, toils and snares,",
-                                "I have already come;",
-                                "’Tis grace hath brought me safe thus far,",
-                                "And grace will lead me home."
+                                "పదివేలలోన అతి సుందరుడా - నీకేఆరాధన",
+                                "ఇహ పరములోన ఆకాంక్షనీయుడా - నీకు సాటెవ్వరు",
+                                "నిన్నా నేడు మారని",
+                                "ఆరాధన స్తుతి ఆరాధన - 4"
                             ]
                         },
                         {
                             "lines": [
-                                "The Lord has promised good to me,",
-                                "His Word my hope secures;",
-                                "He will my Shield and Portion be,",
-                                "As long as life endures."
+                                "దానియేలు సింహపు బోనులో చేసిన ఆరాధన",
+                                "వీధులలో నాట్యమాడిన దావీదు ఆరాధన - 2",
+                                "ఆరాధన స్తుతి ఆరాధన - 4"
                             ]
                         },
                         {
                             "lines": [
-                                "The earth shall soon dissolve like snow,",
-                                "The sun forbear to shine;",
-                                "But God, Who called me here below,",
-                                "Shall be forever mine."
+                                "నీవంటివారు ఒక్కరును లేరు - నీవేఅతి శ్రేష్రే్టుడా",
+                                "దూత గణములు నిత్యము కొలిచే- నీవేపరిశుద్దుడా",
+                                "నిన్నా నేడు మారని",
+                                "ఆరాధన స్తుతి ఆరాధన - 4"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "heading": "కృప కృప నా యేసు కృపా",
+                    "initial": "కృప",
+                    "choruslines": 0,
+                    "slides": [
+                        {
+                            "lines": [
+                                "కృప కృప నా యేసు కృపా",
+                                "కృప కృప కృపా (2)",
+                                "నీ కొరకు నన్ను ముందుగానేనిర్ణయించితివే",
+                                "నీవు నన్ను పిలిచి నీ నీతినిచ్చి మహిమపరచితివే"
                             ]
                         },
                         {
                             "lines": [
-                                "When we’ve been there ten thousand years,",
-                                "Bright shining as the sun,",
-                                "We’ve no less days to sing God’s praise",
-                                "Than when we’d first begun."
+                                "నేనేమైయుంటినో అందుకు కాదయ్యా",
+                                "నా క్రియలను బట్టిఅసలే కాదయ్యా",
+                                "చూపావు ప్రేమ నాపై– పిలిచావు నన్ను కృపకై",
+                                "జనములకు పవక్ర ్తగా నను నియమించావయ్యా",
+                                "నా తల్లి గర్భమునందేపతి్రష్టించావయ్యా 2"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "నాపైనువ్వు చూపిన ప్రేమ ఎంతో గొప్పదయ్యా",
+                                "కలలోనైనా నిన్ను మరువనెలేనయ్యా",
+                                "రుచి చూచి ఎరిగా నిన్ను నా యేసయ్యా",
+                                "నీ కృప నా జీవముకంటెఉత్తమమైనదయ్యా"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "నీ ప్రేమ ధ్వజమేపైకెత్తి నాపై– నన్నాకర్షించావయ్యా",
+                                "నువ్వులేని నన్ను ఊహించలేను – నా శిరస్సు నీవయ్యా",
+                                "నా గుర్తింపంతా నీవేయేసయ్యా",
+                                "నా ప్రాణం సర్వం నీవేయేసయ్యా"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "నేనేమైయుంటినో అందుకు కాదయ్యా",
+                                "నా క్రియలను బట్టిఅసలే కాదయ్యా",
+                                "చూపావు ప్రేమ నాపై– పిలిచావు నన్ను కృపకై",
+                                "జనములకు పవక్ర ్తగా నను నియమించావయ్యా",
+                                "నా తల్లి గర్భమునందేపతి్రష్టించావయ్యా 2"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "నా పాపము నను తరుమంగా నీలో దాచితివే",
+                                "నేనీకు శిక్ష విధించను షాలోమ్ అంటివే",
+                                "నా నేరపు మరణపు శిక్షను నీవు భరించితివే",
+                                "ఇకపైపాపము చేయకని మార్గము చూపితివే"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "నీ మంచితనమేకలిగించెనాలో – మారు మనస్సేసయ్యా",
+                                "నేనెంతగానో క్షమియించబడితిని – ఎక్కువగా ప్రేమించితివయ్యా",
+                                "నా మొదటిప్రేమ నీవేయేసయ్యా",
+                                "నా మొదటిస్థానము నీకేయేసయ్యా"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "నేనేమైయుంటినో అందుకు కాదయ్యా",
+                                "నా క్రియలను బట్టిఅసలే కాదయ్యా",
+                                "చూపావు ప్రేమ నాపై– పిలిచావు నన్ను కృపకై",
+                                "జనములకు పవక్ర ్తగా నను నియమించావయ్యా",
+                                "నా తల్లి గర్భమునందేపతి్రష్టించావయ్యా 2"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "పైరూపము లక్ష్యము చేసేనరుడవు కాదయ్యా",
+                                "నా హృదయపు లోతును ఎరిగిన దేవుడు నీవయ్యా",
+                                "నను నీవేకోరుకొని నా స్థితి మార్చావయ్యా",
+                                "నీ పజలను ్ర నడిపింప అభిషేకించావయ్యా"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "ఏముందినాలో నీవింతగా నను – హెచ్చించుటకు యేసయ్యా",
+                                "ఏమివ్వగలను నీ గొప్ప కృపకై– విరిగిన నా మనస్సేనయ్యా",
+                                "నీ కొరకేనేను జీవిస్తానయ్యా",
+                                "మన ప్రేమను కథగా వివరిస్తానయ్యా"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "నేనేమైయుంటినో అందుకు కాదయ్యా",
+                                "నా క్రియలను బట్టిఅసలే కాదయ్యా",
+                                "చూపావు ప్రేమ నాపై– పిలిచావు నన్ను కృపకై",
+                                "జనములకు పవక్ర ్తగా నను నియమించావయ్యా",
+                                "నా తల్లి గర్భమునందేపతి్రష్టించావయ్యా 2"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "పదివేల మందిలో నీవు అతి సుందరుడవయ్యా",
+                                "అతి కాంక్షణీయుడవు నా ప్రియుడవు నీవయ్యా",
+                                "నీకంటేనను ప్రేమించేప్రేమికుడెవరయ్యా",
+                                "విడనాడని స్నేహితుడా నా మంచి యేసయ్యా"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "నీలోన నేను నాలోన నీవు – ఏకాత్మ అయితిమయ్యా",
+                                "జీవించువాడను ఇక నేను కాను – నా యందు నీవయ్యా",
+                                "నీ మనసేనా దర్శనమేసయ్యా",
+                                "నీ మాటేనా మనుగడ యేసయ్యా"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "నేనేమైయుంటినో అందుకు కాదయ్యా",
+                                "నా క్రియలను బట్టిఅసలే కాదయ్యా",
+                                "చూపావు ప్రేమ నాపై– పిలిచావు నన్ను కృపకై",
+                                "జనములకు పవక్ర ్తగా నను నియమించావయ్యా",
+                                "నా తల్లి గర్భమునందేపతి్రష్టించావయ్యా 2"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "heading": "What a friend we have in Jesus",
+                    "initial": "",
+                    "choruslines": 0,
+                    "slides": [
+                        {
+                            "lines": [
+                                "What a friend we have in Jesus",
+                                "All our sins and griefs to bear",
+                                "What a privilege to carry",
+                                "everything to God in prayer!"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "O what peace we often forfeit",
+                                "O what needless pain we bear",
+                                "All because we do not carry",
+                                "everything to God in prayer"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "Have we trials and temptations?",
+                                "Is there trouble anywhere?",
+                                "We should never be discouraged",
+                                "Take it to the Lord in prayer"
+                            ]
+                        },
+                        {
+                            "lines": [
+                                "Can we find a friend so faithful",
+                                "Who will all our sorrows share?",
+                                "Jesus knows our every weakness",
+                                "Take it to the Lord in prayer"
                             ]
                         }
                     ]
