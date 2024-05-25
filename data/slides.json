@@ -1,5 +1,5 @@
 {
-    "date": "05/11/2024",
+    "date": "05/25/2024",
     "title": "Telugu Fellowship",
     "subtitle": "Family Prayer",
     "background": "",
@@ -15,191 +15,56 @@
             "subtitle": "Worship",
             "content": [
                 {
-                    "heading": "ఎందుకో నన్నింతగా నీవు ప్రేమించితివో దేవా",
-                    "initial": "ఎందుకో",
-                    "choruslines": "2",
-                    "slides": [
-                        {
-                            "lines": [
-                                "ఎందుకో నన్నింతగా నీవు ప్రేమించితివో దేవా",
-                                "అందుకో నా దీన స్తుతిపాత్ర హల్లెలూయ యేసయ్యా (2)"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "నా పాపము బాప నరరూపివైనావు",
-                                "నా శాపము మాప నలిగి వ్రేలాడితివి",
-                                "నాకు చాలిన దేవుడవు నీవే",
-                                "నా స్థానములో నీవే (2)"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "నీ రూపము నాలో నిర్మించియున్నావు",
-                                "నీ పోలికలోనే నివసించుమన్నావు",
-                                "నీవు నన్ను ఎన్నుకొంటివి",
-                                "నీ కొరకై నీ కృపలో (2)"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "నా శ్రమలు సహించి నా ఆశ్రయమైనావు",
-                                "నా వ్యధలు భరించి నన్నాదుకొన్నావు",
-                                "నన్ను నీలో చూచుకున్నావు",
-                                "నను దాచియున్నావు (2)"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "నీ సన్నిధి నాలో నా సర్వము నీలో",
-                                "నీ సంపద నాలో నా సర్వస్వము నీలో",
-                                "నీవు నేను ఏకమగువరకు",
-                                "నన్ను విడువనంటివే (2)"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "నా మనవులు ముందే నీ మనసులో నెరవేరే",
-                                "నా మనుగడ ముందే నీ గ్రంథములోనుండే",
-                                "ఏమి అద్భుత ప్రేమ సంకల్పం",
-                                "నేనేమి చెల్లింతున్ (2)"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "heading": "ఎవరో తెలుసా యేసయ్యా",
-                    "initial": "ఎవరో",
-                    "choruslines": "4",
-                    "slides": [
-                        {
-                            "lines": [
-                                "ఎవరో తెలుసా యేసయ్యా",
-                                "చెబుతా నేడు వినవయ్యా",
-                                "పెడచెవి పెట్టక త్వరపడి వచ్చి",
-                                "రక్షణ పొందయ్యా (2)"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "దేవాది దేవుడు యేసయ్యా",
-                                "మానవ జన్మతో వచ్చాడయ్యా (2)",
-                                "మరణించాడు మరి లేచాడు",
-                                "నీ నా పాప విమోచనకై (2)"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "పాపుల రక్షకుడేసయ్యా",
-                                "కార్చెను రక్తము పాపులకై (2)",
-                                "తన దరి చేరిన పాపులనెల్ల",
-                                "కడుగును తనదు రక్తముతో (2)"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "యేసే దేవుడు ఎరుగవయ్యా",
-                                "రాజుల రాజుగా వస్తాడయ్యా (2)",
-                                "నమ్మినవారిని చేర్చును పరమున",
-                                "నమ్మని వారికి నరకమేగా (2)"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "heading": "ఊహించలేని మేలులతో నింపిన",
-                    "initial": "ఊహించలేని",
-                    "choruslines": "4",
-                    "slides": [
-                        {
-                            "lines": [
-                                "ఊహించలేని మేలులతో నింపిన",
-                                "నా యేసయ్యా నీకే నా వందనం (2)",
-                                "వర్ణించగలనా నీ కార్యముల్",
-                                "వివరించగలనా నీ మేలులన్ (2)"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "మేలుతో నా హృదయం తృప్తిపరచినావు",
-                                "రక్షణ పాత్రనిచ్చి నిను స్తుతియింతును (2)",
-                                "ఇశ్రాయేలు దేవుడా నా రక్షకా",
-                                "స్తుతియింతును నీ నామమున్ (2)"
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "నా దీనస్థితిని నీవు మార్చినావు",
-                                "నా జీవితానికి విలువనిచ్చినావు (2)",
-                                "నీ కృపకు నన్ను ఆహ్వానించినావు",
-                                "నీ సన్నిధి నాకు తోడునిచ్చినావు (2)"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "heading": "All to Jesus, I surrender;",
+                    "heading": "Amazing grace (how sweet the sound)",
                     "initial": "",
                     "choruslines": 0,
                     "slides": [
                         {
                             "lines": [
-                                "All to Jesus, I surrender;",
-                                "All to Him I freely give;",
-                                "I will ever love and trust Him,",
-                                "In His presence daily live."
+                                "Amazing grace (how sweet the sound)",
+                                "that saved a wretch like me!",
+                                "I once was lost, but now am found,",
+                                "was blind, but now I see."
                             ]
                         },
                         {
                             "lines": [
-                                "I surrender all, I surrender all,",
-                                "All to Thee, my blessed Savior,",
-                                "I surrender all."
+                                "'Twas grace that taught my heart to fear,",
+                                "and grace my fears relieved;",
+                                "how precious did that grace appear",
+                                "the hour I first believed!"
                             ]
                         },
                         {
                             "lines": [
-                                "All to Jesus I surrender;",
-                                "Humbly at His feet I bow,",
-                                "Worldly pleasures all forsaken;",
-                                "Take me, Jesus, take me now"
+                                "Through many dangers, toils and snares",
+                                "I have already come:",
+                                "'tis grace has brought me safe thus far,",
+                                "and grace will lead me home."
                             ]
                         },
                         {
                             "lines": [
-                                "I surrender all, I surrender all,",
-                                "All to Thee, my blessed Savior,",
-                                "I surrender all."
+                                "The Lord has promised good to me,",
+                                "his word my hope secures;",
+                                "he will my shield and portion be",
+                                "as long as life endures."
                             ]
                         },
                         {
                             "lines": [
-                                "All to Jesus, I surrender;",
-                                "Make me, Savior, wholly Thine;",
-                                "Let me feel the Holy Spirit,",
-                                "Truly know that Thou art mine."
+                                "Yes, when this flesh and heart shall fail,",
+                                "and mortal life shall cease:",
+                                "I shall possess, within the veil,",
+                                "a life of joy and peace."
                             ]
                         },
                         {
                             "lines": [
-                                "I surrender all, I surrender all,",
-                                "All to Thee, my blessed Savior,",
-                                "I surrender all."
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "All to Jesus, I surrender;",
-                                "Lord, I give myself to Thee;",
-                                "Fill me with Thy love and power;",
-                                "Let Thy blessing fall on me."
-                            ]
-                        },
-                        {
-                            "lines": [
-                                "I surrender all, I surrender all,",
-                                "All to Thee, my blessed Savior,",
-                                "I surrender all."
+                                "The earth shall soon dissolve like snow,",
+                                "the sun forbear to shine;",
+                                "but God, who called me here below,",
+                                "will be forever mine."
                             ]
                         }
                     ]
@@ -219,7 +84,7 @@
         {
             "name": "Closing Prayer",
             "title": "Closing Prayer",
-            "subtitle": "Bro. Uday"
+            "subtitle": "Bro. Kiran"
         }
     ]
 }
